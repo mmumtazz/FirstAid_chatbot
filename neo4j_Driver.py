@@ -1,4 +1,4 @@
-#working full but without neo4j login. instead uses sqlalchemy
+#working full but without neo4j login. instead uses sqlalchemy.
 from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
