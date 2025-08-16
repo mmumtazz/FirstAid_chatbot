@@ -1,4 +1,4 @@
-#works with everything, with Neo4j login
+#works with everything, with Neo4j login.
 from flask import Flask, render_template, request, redirect, session, url_for
 import bcrypt
 import os

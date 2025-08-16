@@ -77,5 +77,5 @@ To run this project locally, please follow these steps.
 
 ## Acknowledgments 🙏
 
--   Inspired by the foundational AIML chatbot project by **Pema Gurung**.
--   Thanks to **kuki.ai** for being a benchmark in the world of rule-based chatbots.
+-   Inspired by the foundational AIML chatbot project by **[Pema Gurung](https://github.com/pemagrg1)**..
+-   Thanks to Thanks to **[kuki.ai](https://www.kuki.ai/)** for being a benchmark in the world of rule-based chatbots.
