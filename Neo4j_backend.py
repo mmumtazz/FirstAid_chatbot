@@ -1,4 +1,4 @@
-#practise for neo4j
+#practise for neo4j.
 from neo4j import GraphDatabase
 
 # Neo4j connection details
