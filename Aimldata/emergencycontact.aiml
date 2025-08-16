@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+    <pattern>EMERGENCY</pattern>
+    <template>Dial 1122 for all emergency services in Pakistan. This number connects you to ambulance, police, and fire services.</template>
+</category>
+
+<category>
+    <pattern>* EMERGENCY</pattern>
+    <template><srai>EMERGENCY</srai></template>
+</category>
+
+<category>
+    <pattern>EMERGENCY *</pattern>
+    <template><srai>EMERGENCY</srai></template>
+</category>
+
+<category>
+    <pattern>* EMERGENCY *</pattern>
+    <template><srai>EMERGENCY</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+   <category>
+    <pattern>POLICE</pattern>
+    <template>The emergency number for the police in Pakistan is 15.</template>
+</category>
+
+<category>
+    <pattern>* POLICE</pattern>
+    <template><srai>POLICE</srai></template>
+</category>
+
+<category>
+    <pattern>POLICE *</pattern>
+    <template><srai>POLICE</srai></template>
+</category>
+
+<category>
+    <pattern>POLICE * *</pattern>
+    <template><srai>POLICE</srai></template>
+</category>
+
+<category>
+    <pattern>* POLICE *</pattern>
+    <template><srai>POLICE</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+<category>
+    <pattern>NUMBER FIRE</pattern>
+    <template>The emergency number for fire services is 16.</template>
+</category>
+
+<category>
+    <pattern>* NUMBER FIRE</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>NUMBER FIRE *</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>NUMBER * FIRE</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* NUMBER FIRE *</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>NUMBER * FIRE *</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* NUMBER * FIRE</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* NUMBER * FIRE *</pattern>
+    <template><srai>NUMBER FIRE</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+    <category>
+    <pattern>MEDICAL</pattern>
+    <template>Dial 1122 for medical emergency services in Pakistan.</template>
+</category>
+
+<category>
+    <pattern>* MEDICAL</pattern>
+    <template><srai>MEDICAL</srai></template>
+</category>
+
+<category>
+    <pattern>MEDICAL *</pattern>
+    <template><srai>MEDICAL</srai></template>
+</category>
+
+<category>
+    <pattern>* MEDICAL *</pattern>
+    <template><srai>MEDICAL</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+   <category>
+    <pattern>CRIME</pattern>
+    <template>Call 15 immediately and provide details about the crime, location, and any suspects.</template>
+</category>
+
+<category>
+    <pattern>* CRIME</pattern>
+    <template><srai>CRIME</srai></template>
+</category>
+
+<category>
+    <pattern>CRIME *</pattern>
+    <template><srai>CRIME</srai></template>
+</category>
+
+<category>
+    <pattern>* CRIME *</pattern>
+    <template><srai>CRIME</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+    <category>
+        <pattern>FIRE HOUSE</pattern>
+        <template>Call 16 immediately, evacuate the house, and ensure everyone is safe.</template>
+    </category>
+    
+    <category>
+    <pattern>* FIRE HOUSE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE HOUSE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * HOUSE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * HOUSE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * HOUSE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * HOUSE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+    <!-- ques 2 -->   
+
+  <category>
+    <pattern>HOUSE FIRE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>* HOUSE FIRE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>HOUSE FIRE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>HOUSE * FIRE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>* HOUSE * FIRE</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>HOUSE * FIRE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+<category>
+    <pattern>* HOUSE * FIRE *</pattern>
+    <template><srai>FIRE HOUSE</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+   <category>
+    <pattern>EMERGENCY REMOTE</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>* EMERGENCY REMOTE</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>EMERGENCY REMOTE *</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>EMERGENCY * REMOTE</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>* EMERGENCY * REMOTE</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>EMERGENCY * REMOTE *</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+<category>
+    <pattern>* EMERGENCY * REMOTE *</pattern>
+    <template>Dial 1122 or 15 for assistance. If you are in a very remote area with no coverage, try to find the nearest town or landmark and give that location to the operator.</template>
+</category>
+
+    <!-- ques 2 -->   
+
+     <category>
+    <pattern>REMOTE EMERGENCY</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* REMOTE EMERGENCY</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>REMOTE EMERGENCY *</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>REMOTE * EMERGENCY</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* REMOTE EMERGENCY *</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>REMOTE * EMERGENCY *</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* REMOTE * EMERGENCY</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* REMOTE * EMERGENCY *</pattern>
+    <template><srai>EMERGENCY REMOTE</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+    <category>
+    <pattern>ROAD ACCIDENT</pattern>
+    <template>Call 1122 and report the accident’s location, number of vehicles involved, and injuries.</template>
+</category>
+
+<category>
+    <pattern>* ROAD ACCIDENT</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>ROAD ACCIDENT *</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>* ROAD ACCIDENT *</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+    <category>
+    <pattern>ACCIDENT ROAD</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>* ACCIDENT ROAD</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>ACCIDENT ROAD *</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>ACCIDENT * ROAD</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>* ACCIDENT * ROAD</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>ACCIDENT * ROAD *</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+<category>
+    <pattern>* ACCIDENT * ROAD *</pattern>
+    <template><srai>ROAD ACCIDENT</srai></template>
+</category>
+
+   <!-- ques 2 -->   
+
+  <category>
+    <pattern>FIRE BUILDING</pattern>
+    <template>Call 16 and provide the address, number of floors, and any people trapped inside.</template>
+</category>
+
+<category>
+    <pattern>* FIRE BUILDING</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE BUILDING *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * BUILDING</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * BUILDING</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * BUILDING *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * BUILDING *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+    
+    <!-- ques 2 -->   
+ <category>
+    <pattern>BUILDING FIRE</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BUILDING FIRE</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>BUILDING FIRE *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>BUILDING * FIRE</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BUILDING * FIRE</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>BUILDING * FIRE *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BUILDING * FIRE *</pattern>
+    <template><srai>FIRE BUILDING</srai></template>
+</category>
+
+    <!-- ques 2 -->   
+
+    <category>
+    <pattern>FIRE</pattern>
+    <template>Call 16 immediately, provide your exact location, and stay on the line if possible.</template>
+</category>
+
+<category>
+    <pattern>* FIRE</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE *</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE *</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+  
+</aiml>

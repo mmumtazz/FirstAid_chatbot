@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+    <pattern>BURN</pattern>
+    <template>Cool the burn with cool (not cold) water for at least 10 minutes, apply an antibiotic ointment, and cover with a sterile bandage.</template>
+</category>
+
+<category>
+    <pattern>* BURN</pattern>
+    <template><srai>BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN *</pattern>
+    <template><srai>BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN *</pattern>
+    <template><srai>BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * </pattern>
+    <template><srai>BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * </pattern>
+    <template><srai>BURN</srai></template>
+</category>
+
+<!-- ques 2 -->   
+   <category>
+    <pattern>ELECTRICAL BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>ELECTRIC BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRIC BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRIC BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRIC BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRIC BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRIC BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>POWER LINE</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* POWER LINE</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>POWER LINE *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* POWER LINE *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>POWER LINE * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* POWER LINE * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>ELECTRICITY BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICITY BURN</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICITY BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICITY BURN *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICITY BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICITY BURN * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+  <!-- ques -->
+  <category>
+    <pattern>BURN FROM ELECTRICITY</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FROM ELECTRICITY</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>BURN FROM ELECTRICITY *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FROM ELECTRICITY *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>BURN FROM ELECTRICITY * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FROM ELECTRICITY * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<!-- ques -->
+ <category>
+    <pattern>ELECTROCUTED</pattern>
+    <template>
+        <ul><li>In case of smaller Burn, Cool the burn area with running cold water for 10-20 minutes if possible. Do not apply ice. Cover the burn with a sterile dressing and avoid breaking blisters.</li>
+            <li>In case of larger Burn, The first action is to ensure the person is no longer in contact with the electrical source, but without putting yourself at risk. Turn off the power source or use a non-conductive object to move them away.</li>
+            <li>DO NOT TOUCH the victim until the power is off or they are no longer in contact with the electrical source. Protect the airway, cover the burn with a sterile, non-stick dressing, and seek immediate medical attention.</li>
+            <li>Check for responsiveness, breathing, and pulse. If they are unresponsive and not breathing, perform CPR. Assess the burn area for signs of injury.</li>
+            <li>If the victim is having trouble breathing, provide oxygen if available and seek immediate medical attention.</li>
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>* ELECTROCUTED</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTROCUTED *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTROCUTED *</pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTROCUTED * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTROCUTED * </pattern>
+    <template><srai>ELECTROCUTED</srai></template>
+</category>
+
+<!-- ques -->
+ <category>
+    <pattern>UNCONSCIOUS BURN</pattern>
+    <template>Check the airway, breathing, and pulse. If needed, perform CPR. Call for emergency medical help.</template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS BURN</pattern>
+    <template><srai>UNCONSCIOUS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS BURN *</pattern>
+    <template><srai>UNCONSCIOUS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS BURN *</pattern>
+    <template><srai>UNCONSCIOUS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS BURN * </pattern>
+    <template><srai>UNCONSCIOUS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS BURN * </pattern>
+    <template><srai>UNCONSCIOUS BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>INTERNAL INJURIES BURNS</pattern>
+    <template>Symptoms include difficulty breathing, chest pain, irregular heartbeat, loss of consciousness, or neurological symptoms like confusion or numbness.</template>
+</category>
+
+<category>
+    <pattern>* INTERNAL INJURIES BURNS</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>INTERNAL INJURIES BURNS *</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* INTERNAL INJURIES BURNS *</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>INTERNAL INJURIES BURNS * </pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* INTERNAL INJURIES BURNS * </pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<!-- ques -->
+  <category>
+    <pattern>BURNS INTERNAL INJURIES</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS INTERNAL INJURIES</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS INTERNAL INJURIES *</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS INTERNAL INJURIES *</pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS INTERNAL INJURIES * </pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS INTERNAL INJURIES * </pattern>
+    <template><srai>INTERNAL INJURIES BURNS</srai></template>
+</category>
+
+<!-- ques -->
+  <category>
+    <pattern>SEVERITY ELECTRICAL BURN</pattern>
+    <template>Assess the burn size, depth, and the areas of the body affected. Check for entry and exit wounds, signs of internal injury, or cardiac issues.</template>
+</category>
+
+<category>
+    <pattern>* SEVERITY ELECTRICAL BURN</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SEVERITY ELECTRICAL BURN *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SEVERITY ELECTRICAL BURN *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SEVERITY ELECTRICAL BURN * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SEVERITY ELECTRICAL BURN * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>ELECTRICAL BURN SEVERITY</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SEVERITY</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN SEVERITY *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SEVERITY *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN SEVERITY * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SEVERITY * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>ELECTRICAL BURN SERIOUS</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SERIOUS</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN SERIOUS *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SERIOUS *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN SERIOUS * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SERIOUS * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<!-- ques -->
+ <category>
+    <pattern>SERIOUS ELECTRICAL BURN</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SERIOUS ELECTRICAL BURN</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SERIOUS ELECTRICAL BURN *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SERIOUS ELECTRICAL BURN *</pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SERIOUS ELECTRICAL BURN * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SERIOUS ELECTRICAL BURN * </pattern>
+    <template><srai>SEVERITY ELECTRICAL BURN</srai></template>
+</category>
+
+  <!-- ques -->
+<category>
+    <pattern>BURN FACE</pattern>
+    <template>Rinse with cool water immediately. Avoid using ointments or creams near the eyes, and seek immediate medical attention.</template>
+</category>
+
+<category>
+    <pattern>* BURN FACE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN FACE *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * FACE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * FACE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * FACE *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FACE * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+<category>
+    <pattern>* BURN * FACE * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<!-- ques -->    
+ <category>
+    <pattern>BURN EYE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN EYE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN EYE *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * EYE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * EYE</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * EYE *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN EYE * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * EYE * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<!-- ques -->  
+<category>
+    <pattern>EYE BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* EYE BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>EYE BURN *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>EYE * BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* EYE * BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>EYE * BURN *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* EYE BURN * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* EYE * BURN * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>FACE BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* FACE BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>FACE BURN *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>FACE * BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* FACE * BURN</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>FACE * BURN *</pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* FACE BURN * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<category>
+    <pattern>* FACE * BURN * </pattern>
+    <template><srai>BURN FACE</srai></template>
+</category>
+
+<!-- ques --> 
+   <category>
+    <pattern>HANDS BURN</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>* HANDS BURN</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>HANDS BURN *</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>HANDS * BURN</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>* HANDS * BURN</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>HANDS * BURN *</pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>* HANDS BURN * </pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+<category>
+    <pattern>* HANDS * BURN * </pattern>
+    <template>Immobilize them to prevent further injury, keep the person calm. Rinse the burn under cool water, and avoid using ice. Cover with a non-stick, sterile dressing and seek medical care for severe burns.</template>
+</category>
+
+ <!-- ques -->
+ <category>
+    <pattern>FEET BURN</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FEET BURN</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FEET BURN *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FEET * BURN</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FEET * BURN</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FEET * BURN *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FEET BURN * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FEET * BURN * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+   <!-- ques -->
+  <category>
+    <pattern>BURN FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN FEET *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * FEET *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN FEET * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * FEET * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+    
+<!-- ques -->  
+   <category>
+    <pattern>BURNS FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS FEET *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * FEET</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * FEET *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS FEET * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * FEET * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<!-- ques -->  
+    <category>
+    <pattern>BURN HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN HAND *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * HAND *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN HAND * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * HAND * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<!-- ques -->
+   <category>
+    <pattern>BURNS HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS HAND *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * HAND</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * HAND *</pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS HAND * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * HAND * </pattern>
+    <template><srai>HANDS BURN</srai></template>
+</category>
+
+<!-- ques -->  
+<category>
+    <pattern>SECOND DEGREE BURN</pattern>
+    <template>Cool the burn with water, cover with a clean, non-stick bandage, and seek medical help if there are large blisters or severe pain.</template>
+</category>
+
+<category>
+    <pattern>* SECOND DEGREE BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND DEGREE BURN *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND DEGREE * BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SECOND DEGREE * BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND DEGREE * BURN *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SECOND DEGREE BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SECOND * BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND * BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SECOND * BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND * BURN </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SECOND BURN </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SECOND BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+<!-- ques -->  
+  <category>
+    <pattern>2ND BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND BURN *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND * BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND * BURN</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND * BURN *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND * BURN * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<!-- ques -->   
+    <category>
+    <pattern>2ND BURNS</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND BURNS</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND BURNS *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND * BURNS</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND * BURNS</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>2ND * BURNS *</pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND BURNS * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* 2ND * BURNS * </pattern>
+    <template><srai>SECOND DEGREE BURN</srai></template>
+</category>
+
+<!-- ques -->  
+    <category>
+    <pattern>THIRD BURNS</pattern>
+    <template>Call emergency services immediately. Do not remove clothing stuck to the burn. Cover the burn with a sterile bandage or cloth, and prevent shock.</template>
+</category>
+
+<category>
+    <pattern>* THIRD BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD BURNS *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD * BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD * BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD * BURNS *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD BURNS * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD * BURNS * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+ <!-- ques -->
+   <category>
+    <pattern>3RD BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD BURN *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD * BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD * BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD * BURN *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD BURN * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD * BURN * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<!-- ques -->  
+    <category>
+    <pattern>3RD BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD BURNS *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD * BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD * BURNS</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>3RD * BURNS *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD BURNS * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* 3RD * BURNS * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<!-- ques --> 
+<category>
+    <pattern>THIRD BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD BURN *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD * BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD * BURN</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>THIRD * BURN *</pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD BURN * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* THIRD * BURN * </pattern>
+    <template><srai>THIRD BURNS</srai></template>
+</category>
+
+<!-- ques --> 
+
+ <category>
+    <pattern>BURN GREASE</pattern>
+    <template>Cool the burn with cool water, cover with a sterile dressing, and seek medical attention. Do not use water to extinguish grease fires, as it can make the fire worse.</template>
+</category>
+
+<category>
+    <pattern>* BURN GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN GREASE *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * GREASE *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN GREASE * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * GREASE * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<!-- ques -->  
+   <category>
+    <pattern># GREASE  # BURN #</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE BURN</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE BURN *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE * BURN</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE * BURN</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE * BURN *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE BURN *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE * BURN * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<!-- ques -->  
+     <category>
+    <pattern>GREASE BURNS</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE BURNS</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE BURNS *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE * BURNS</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE * BURNS</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>GREASE * BURNS *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE BURNS *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* GREASE * BURNS * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<!-- ques -->
+     <category>
+    <pattern>BURNS GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS GREASE *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * GREASE</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * GREASE *</pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS GREASE * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * GREASE * </pattern>
+    <template><srai>BURN GREASE</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>LIGHTNING STRIKE</pattern>
+    <template>Call emergency services. For the burn victim, assess breathing and pulse, perform CPR if necessary, and cover the burns with a sterile dressing.</template>
+</category>
+
+<category>
+    <pattern>* LIGHTNING STRIKE</pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>LIGHTNING STRIKE *</pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>LIGHTNING * STRIKE</pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>* LIGHTNING * STRIKE</pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>LIGHTNING * STRIKE *</pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>* LIGHTNING STRIKE * </pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<category>
+    <pattern>* LIGHTNING * STRIKE * </pattern>
+    <template><srai>LIGHTNING STRIKE</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>SHOCK ELECTRICAL BURNS</pattern>
+    <template><ul><li>Symptoms include rapid pulse, shallow breathing, confusion, pale skin, and weakness.</li>
+    <li>Gently touch and talk to the person. If there is no response, start CPR. If there is an electrical burn, you can treat it in the same way as you would any other burn. Put the burnt area under running water for at least 20 minutes then cover with a sterile gauze bandage, if available, or a clean cloth.</li></ul></template>
+</category>
+
+<category>
+    <pattern>* SHOCK ELECTRICAL BURNS</pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK ELECTRICAL BURNS *</pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * ELECTRICAL BURNS</pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * ELECTRICAL BURNS</pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * ELECTRICAL BURNS *</pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK ELECTRICAL BURNS * </pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * ELECTRICAL BURNS * </pattern>
+    <template><srai>SHOCK ELECTRICAL BURNS</srai></template>
+</category>
+
+<!-- ques -->
+  <category>
+    <pattern>ELECTRICAL BURN SHOCK</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SHOCK</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL BURN SHOCK *</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL * BURN SHOCK</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL * BURN SHOCK</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>ELECTRICAL * BURN SHOCK *</pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL BURN SHOCK * </pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* ELECTRICAL * BURN * SHOCK * </pattern>
+    <template><srai>SHOCK ELECTRICAL BURN</srai></template>
+</category>
+
+<!-- ques -->
+ <category>
+    <pattern>CHECK AIRWAY</pattern>
+    <template>Open the airway by tilting the head back and check for breathing. If the person isn’t breathing, begin CPR.</template>
+</category>
+
+<category>
+    <pattern>* CHECK AIRWAY</pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK AIRWAY *</pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * AIRWAY</pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * AIRWAY</pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * AIRWAY *</pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK AIRWAY * </pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * AIRWAY * </pattern>
+    <template><srai>CHECK AIRWAY</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>TRANSPORT BURNS</pattern>
+    <template>Ensure the person is stable, cover burns with sterile dressings, and transport them as quickly as possible while ensuring they are not exposed to further injury.</template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT BURNS</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT BURNS *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT * BURNS</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT * BURNS</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT * BURNS *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT BURNS * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT * BURNS * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+  <!-- ques -->
+  <category>
+    <pattern>TRANSPORT BURN</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT BURN</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT BURN *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT * BURN</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT * BURN</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>TRANSPORT * BURN *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT BURN * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSPORT * BURN * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+  <!-- ques -->
+ <category>
+    <pattern>BURNS TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS TRANSPORT *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * TRANSPORT *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS TRANSPORT * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * TRANSPORT * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+  <!-- ques -->
+  <category>
+    <pattern>BURN TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURN TRANSPORT *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * TRANSPORT</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * TRANSPORT *</pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN TRANSPORT * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * TRANSPORT * </pattern>
+    <template><srai>TRANSPORT BURNS</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>SIGNS BURNS</pattern>
+    <template>Signs of burns that need immediate medical attention include severe burns with visible tissue damage, large blisters, burns on the face, hands, feet, or genitals, loss of consciousness, difficulty breathing, and signs of shock.</template>
+</category>
+
+<category>
+    <pattern>* SIGNS BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS BURNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * BURNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS BURNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * BURNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+<!-- ques -->
+  <category>
+    <pattern>SYMPTOMS BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SYMPTOMS BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SYMPTOMS BURNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SYMPTOMS * BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SYMPTOMS * BURNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SYMPTOMS * BURNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SYMPTOMS BURNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SYMPTOMS * BURNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+  <!-- ques -->
+ <category>
+    <pattern>BURNS SIGNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS SIGNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS SIGNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * SIGNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * SIGNS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * SIGNS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS SIGNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * SIGNS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+  <!-- ques -->
+ <category>
+    <pattern>BURNS SYMPTOMS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS SYMPTOMS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS SYMPTOMS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * SYMPTOMS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * SYMPTOMS</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * SYMPTOMS *</pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS SYMPTOMS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * SYMPTOMS * </pattern>
+    <template><srai>SIGNS BURNS</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>SEIZURE BURN</pattern>
+    <template>Place the victim on their side to prevent choking, keep the area safe, and call for emergency medical help.</template>
+</category>
+
+<category>
+    <pattern>* SEIZURE BURN</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SEIZURE BURN *</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SEIZURE * BURN</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SEIZURE * BURN</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SEIZURE * BURN *</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SEIZURE BURN * </pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SEIZURE * BURN * </pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+ <!-- ques -->
+  <category>
+    <pattern>BURN SEIZURE</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN SEIZURE</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN SEIZURE *</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * SEIZURE</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * SEIZURE</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern> BURN * SEIZURE *</pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN SEIZURE * </pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * SEIZURE * </pattern>
+    <template><srai>SEIZURE BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>BURN BLEEDING</pattern>
+    <template>Apply pressure to the bleeding area, cover the burn with sterile dressings, and seek immediate medical assistance.</template>
+</category>
+
+<category>
+    <pattern>* BURN BLEEDING</pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BURN BLEEDING *</pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * BLEEDING</pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * BLEEDING</pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * BLEEDING *</pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN BLEEDING * </pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * BLEEDING * </pattern>
+    <template><srai>BURN BLEEDING</srai></template>
+</category>
+
+  <!-- ques -->
+<category>
+    <pattern> BLEEDING BURN </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING BURN *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURN *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING BURN * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURN * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+  
+ <!-- ques --> 
+  <category>
+    <pattern>BLEEDING BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING BURN *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURN</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURN *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING BURN * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURN * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+ <!-- ques -->
+<category>
+    <pattern># BLEEDING # BURNS #</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING # BURNS #</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern># BLEEDING BURNS *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURNS</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURNS</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * BURNS *</pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING BURNS * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * BURNS * </pattern>
+    <template><srai>BURNS BLEEDING</srai></template>
+</category>
+
+<!-- ques -->  
+<category>
+    <pattern>BURN PAIN</pattern>
+    <template>Administer pain relief as advised by medical professionals. Keep the area clean, and cover the burn with a sterile bandage.</template>
+</category>
+
+<category>
+    <pattern>* BURN PAIN</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN PAIN *</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * PAIN</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * PAIN</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * PAIN *</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN PAIN * </pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * PAIN * </pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+ 
+<!-- ques -->    
+<category>
+    <pattern>PAIN BURNS</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* PAIN BURNS</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>PAIN BURNS *</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>PAIN * BURNS</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* PAIN * BURNS</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>PAIN * BURNS *</pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* PAIN BURNS * </pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* PAIN * BURNS * </pattern>
+    <template><srai>BURN PAIN</srai></template>
+</category>
+  
+<!-- ques -->  
+<category>
+    <pattern>COVER BURN</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>* COVER BURN</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>COVER BURN *</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>COVER * BURN</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>* COVER * BURN</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>COVER * BURN *</pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>* COVER BURN * </pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+<category>
+    <pattern>* COVER * BURN * </pattern>
+    <template>Use a clean, sterile non-stick dressing. Avoid using cotton or materials that can leave fibers in the wound.</template>
+</category>
+
+    <!-- ques -->
+    <category>
+    <pattern>BURN COVERED</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN COVERED</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN COVERED *</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * COVERED</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * COVERED</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * COVERED *</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * COVERED * </pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+    <!-- ques -->
+    <category>
+    <pattern>BURN COVER</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN COVER</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN COVER *</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * COVER</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * COVER</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * COVER *</pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * COVER * </pattern>
+    <template><srai>COVER BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>BLISTERS</pattern>
+    <template>DO NOT break blisters, as they act as a barrier to infection. If they break on their own, clean the area gently and cover it with a sterile bandage.</template>
+</category>
+
+<category>
+    <pattern>* BLISTERS</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<category>
+    <pattern>BLISTERS *</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<category>
+    <pattern>* BLISTERS *</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<!-- ques -->    
+<category>
+    <pattern>BLISTER</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<category>
+    <pattern>* BLISTER</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<category>
+    <pattern>BLISTER *</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+
+<category>
+    <pattern>* BLISTER *</pattern>
+    <template><srai>BLISTERS</srai></template>
+</category>
+    
+ <!-- ques -->
+<category>
+    <pattern>DRESS BURN</pattern>
+    <template>Use sterile, non-stick bandages, and apply antibiotic ointment. Keep the wound clean and dry.</template>
+</category>
+
+<category>
+    <pattern>* DRESS BURN</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>DRESS BURN *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>DRESS * BURN</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>DRESS * BURN *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* DRESS * BURN</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* DRESS * BURN *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>BURN DRESS</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN DRESS</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN DRESS *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN DRESS *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * DRESS</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * DRESS *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * DRESS</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * DRESS *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<!-- ques -->
+<category>
+    <pattern>BURNS DRESSED</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS DRESSED</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS DRESSED *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS DRESSED *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * DRESSED</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURNS * DRESSED *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * DRESSED</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURNS * DRESSED *</pattern>
+    <template><srai>DRESS BURN</srai></template>
+</category>
+
+<!-- ques -->  
+<category>
+    <pattern>FLUIDS BURN</pattern>
+    <template>Only give fluids if the person is alert and able to swallow. Otherwise, wait for medical professionals to handle hydration. Use oral rehydration fluids or IV fluids, such as saline or Ringer's lactate, depending on the severity of the burn and shock.</template>
+</category>
+
+<category>
+    <pattern>* FLUIDS BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUIDS BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUIDS BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUIDS * BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUIDS * BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUIDS * BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUIDS * BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+    
+    <!-- ques -->
+<category>
+    <pattern>FLUID BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUID BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUID BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUID * BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUID BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>FLUIDS * BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUIDS * BURN</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* FLUID * BURN *</pattern>
+    <template><srai>FLUIDS BURN</srai></template>
+</category>
+ 
+    
+  <!-- ques -->
+  <category>
+    <pattern>ICE COLD WATER</pattern>
+    <template>DO NOT USE ICE ON BURNS. You should cool a burn with cool (not cold) water. Ice can cause further damage to the skin.</template>
+</category>
+
+<category>
+    <pattern>* ICE COLD WATER</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE COLD WATER *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE * COLD WATER</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE COLD WATER *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE * COLD WATER *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE * COLD WATER</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE * COLD WATER *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<!-- ques -->    
+   <category>
+    <pattern>ICE BURN</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE BURN</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE BURN *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE * BURN</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE BURN *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>ICE * BURN *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE * BURN</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+<category>
+    <pattern>* ICE * BURN *</pattern>
+    <template><srai>ICE COLD WATER</srai></template>
+</category>
+
+
+ <!-- ques -->   
+   <category>
+    <pattern>INFECTION BURN</pattern>
+    <template>Keep the burn clean, apply an antibiotic ointment, and cover with a sterile bandage. Avoid popping blisters.</template>
+</category>
+
+<category>
+    <pattern>* INFECTION BURN</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION BURN *</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION * BURN</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION BURN *</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION * BURN *</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION * BURN</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION * BURN *</pattern>
+    <template><srai>INFECTION BURN</srai></template>
+</category>
+
+    
+   <!-- ques --> 
+    <category>
+    <pattern>STEAM</pattern>
+    <template>Treat steam burns like other burns. Cool the area with cool water for at least 10 minutes and seek medical attention for severe burns.</template>
+</category>
+
+<category>
+    <pattern>* STEAM</pattern>
+    <template><srai>STEAM</srai></template>
+</category>
+
+<category>
+    <pattern>STEAM *</pattern>
+    <template><srai>STEAM</srai></template>
+</category>
+
+<category>
+    <pattern>* STEAM *</pattern>
+    <template><srai>STEAM</srai></template>
+</category>
+
+    <!-- ques -->
+    <category>
+    <pattern>CHEMICAL BURN</pattern>
+    <template>Evacuate to a safe area, Remove the person from the source of the chemical, if possible, and immediately begin flushing the affected area with large amounts of water for at least 10-20 minutes. Seek immediate medical attention.</template>
+</category>
+
+<category>
+    <pattern>* CHEMICAL BURN</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>CHEMICAL BURN *</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>CHEMICAL * BURN</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* CHEMICAL BURN *</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>CHEMICAL * BURN *</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* CHEMICAL * BURN</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* CHEMICAL * BURN *</pattern>
+    <template><srai>CHEMICAL BURN</srai></template>
+</category>
+
+    <!-- ques -->
+<category>
+    <pattern>SWELLING BURN</pattern>
+    <template>Elevate the affected area, rinse with water, and seek immediate medical help for further assessment and treatment.</template>
+</category>
+
+<category>
+    <pattern>* SWELLING BURN</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING BURN *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING * BURN</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING BURN *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING * BURN *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING * BURN</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING * BURN *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+  <!-- ques -->
+<category>
+    <pattern>BURN SWELLING</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN SWELLING</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN SWELLING *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * SWELLING</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN SWELLING *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>BURN * SWELLING *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * SWELLING</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+
+<category>
+    <pattern>* BURN * SWELLING *</pattern>
+    <template><srai>SWELLING BURN</srai></template>
+</category>
+ <!-- ques -->
+ <category>
+    <pattern>SWELLING BURNS</pattern>
+    <template>Elevate the affected area, rinse with water, and seek immediate medical help for further assessment and treatment.</template>
+</category>
+
+<category>
+    <pattern>* SWELLING BURNS</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING BURNS *</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING * BURNS</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING BURNS *</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>SWELLING * BURNS *</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING * BURNS</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+<category>
+    <pattern>* SWELLING * BURNS *</pattern>
+    <template><srai>SWELLING BURNS</srai></template>
+</category>
+
+
+</aiml>

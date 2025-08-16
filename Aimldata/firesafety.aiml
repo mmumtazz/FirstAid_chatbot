@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- General Fire Safety Tips -->
+  <category>
+    <pattern>FIRE SAFETY</pattern>
+    <template>
+        1. Install smoke detectors in every room and test them monthly.
+        2. Never leave cooking unattended, and keep flammable items away from the stove.
+        3. Keep matches and lighters out of reach of children.
+        4. Don't overload electrical outlets and use extension cords safely.
+        5. Have an escape plan and practice fire drills with your family regularly.
+    </template>
+</category>
+
+<category>
+    <pattern>* FIRE SAFETY</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE SAFETY *</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * SAFETY</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * SAFETY</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * SAFETY * </pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE SAFETY *</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * SAFETY *</pattern>
+    <template><srai>FIRE SAFETY</srai></template>
+</category>
+
+    <!-- Tips for Preventing Kitchen Fires -->
+    <category>
+    <pattern>KITCHEN FIRE</pattern>
+    <template>
+        1. Stay in the kitchen while cooking, especially when using high heat.
+        2. Keep flammable items like paper towels and dish cloths away from the stove.
+        3. Turn pot handles inward to prevent them from being knocked over.
+        4. Never use water to put out grease fires; use a lid or baking soda instead.
+        5. Keep a fire extinguisher nearby and know how to use it.
+        6. Call 16 incase the fire is Big or uncontrolled
+    </template>
+</category>
+
+<category>
+    <pattern>* KITCHEN FIRE</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>KITCHEN FIRE *</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>KITCHEN * FIRE</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* KITCHEN * FIRE</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>KITCHEN * FIRE *</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* KITCHEN FIRE *</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* KITCHEN * FIRE *</pattern>
+    <template><srai>KITCHEN FIRE</srai></template>
+</category>
+<category>
+    <pattern>* FIRE KITCHEN</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE KITCHEN *</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * KITCHEN</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * KITCHEN</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE  * KITCHEN *</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * KITCHEN *</pattern>
+    <template><srai>FIRE KITCHEN</srai></template>
+</category>
+
+    <!-- Fire Escape Plan Tips -->
+   <category>
+    <pattern>ESCAPE FIRE</pattern>
+    <template>
+        If you are caught in a fire, follow these steps to escape safely:
+        <ol>
+            <li>Stay calm and do not panic.</li>
+            <li>If possible, immediately call emergency services 16.</li>
+            <li>Use a cloth to cover your nose and mouth to avoid inhaling smoke.</li>
+            <li>If there is smoke, crouch low to the ground where the air is clearer.</li>
+            <li>Do not use elevators during a fire; always use stairs to evacuate.</li>
+            <li>Close doors behind you to slow the spread of the fire.</li>
+            <li>Once outside, move away from the building and go to a designated safe area.</li>
+            <li>Do not go back inside until it is declared safe by fire officials.</li>
+        </ol>
+    </template>
+</category>
+
+<category>
+    <pattern>* ESCAPE FIRE</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>ESCAPE FIRE *</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>ESCAPE * FIRE</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* ESCAPE * FIRE</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>ESCAPE * FIRE *</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* ESCAPE FIRE *</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* ESCAPE * FIRE *</pattern>
+    <template><srai>ESCAPE FIRE</srai></template>
+</category>
+
+    <!-- What to Do After a Fire -->
+    <category>
+        <pattern>FIRE</pattern>
+        <template>
+            1. Contact 16 Immediately
+            2. Do not enter a fire-damaged building until it has been declared safe by authorities.
+            3. Wear protective clothing and a mask if you need to enter a smoky or damaged area.
+            4. Remove and clean items that have been affected by smoke or water damage.
+            5. Seek support from local disaster relief services or community organizations.
+            <br/>If you are trapped by the fire and cannot leave the building
+            <br/>Enter a safe room, preferably one with a window that overlooks a road.
+            <br/>Shut the door behind you but don’t lock it. Cover the bottom gap of the door with a blanket or rug to prevent smoke from seeping through.
+            <br/>If you have access to a phone, call 995 and inform the operator of your location, what is on fire and if there are others trapped with you.
+            <br/>If you do not have access to a phone, shout for help from the window. Never attempt to climb out or jump out of the building. Wait patiently until help comes.
+        </template>
+    </category>
+    
+<category>
+    <pattern>* FIRE</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE *</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE *</pattern>
+    <template><srai>FIRE</srai></template>
+</category>
+
+    <!-- Types of Fires -->
+    <category>
+    <pattern>TYPES FIRES</pattern>
+    <template>
+        Fires are classified into five main types based on the materials that burn:
+        1. **Class A**: Fires involving ordinary combustibles like wood, paper, or cloth.
+        2. **Class B**: Fires caused by flammable liquids such as gasoline, oil, or grease.
+        3. **Class C**: Electrical fires involving energized electrical equipment.
+        4. **Class D**: Fires involving combustible metals like magnesium, titanium, or sodium.
+        5. **Class K**: Fires that occur in cooking oils and fats, often found in commercial kitchens.
+    </template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES * FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES * FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+
+<category>
+    <pattern>TYPE FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE * FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE * FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES * FIRE</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES * FIRE *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE * FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE * FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE TYPES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE TYPES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE TYPES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * TYPES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * TYPES</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * TYPES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE TYPES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * TYPES *</pattern>
+    <template><srai>TYPES FIRES</srai></template>
+</category>
+    <!-- Fire Extinguisher Types -->
+ <category>
+    <pattern>TYPES FIRE EXTINGUISHERS</pattern>
+    <template>
+        There are different types of fire extinguishers, each designed for specific classes of fire:
+       <br/> 1. **Water Extinguishers**: Effective for Class A fires (ordinary combustibles). They cool the burning material and prevent re-ignition.
+       <br/><br/> 2. **Foam Extinguishers**: Suitable for Class A and Class B fires (flammable liquids). They create a barrier to smother the fire and prevent oxygen from fueling it.
+       <br/><br/> 3. **Dry Chemical Extinguishers**: Versatile and can be used on Class A, B, and C fires. They interrupt the chemical reaction that fuels the fire.
+       <br/><br/> 4. **Carbon Dioxide (CO2) Extinguishers**: Best for Class B and Class C fires. They displace oxygen and cool the fire by removing heat.
+       <br/><br/> 5. **Wet Chemical Extinguishers**: Designed for Class K fires (cooking oil fires). They create a soapy layer on top of the oil to cool it and prevent re-ignition.
+       <br/><br/> 6. **Dry Powder Extinguishers**: Used for Class D fires involving metals. They coat the burning metal and prevent oxygen from reaching it.
+    </template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRE EXTINGUISHERS</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRE EXTINGUISHERS</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES * FIRE EXTINGUISHERS</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>TYPES * FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPES FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+
+<category>
+    <pattern>* TYPES * FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE EXTINGUISHER TYPES</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE EXTINGUISHER TYPES</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+<category>
+    <pattern>FIRE EXTINGUISHER TYPES *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE EXTINGUISHER * TYPES</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE EXTINGUISHER * TYPES*</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+<category>
+    <pattern>* FIRE EXTINGUISHER * TYPES</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE EXTINGUISHER TYPES *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE EXTINGUISHER * TYPES *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE * FIRE EXTINGUISHERS</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>TYPE * FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* TYPE FIRE EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+<category>
+    <pattern>* EXTINGUISHER *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+
+<category>
+    <pattern>* EXTINGUISHERS *</pattern>
+    <template><srai>TYPES FIRE EXTINGUISHERS</srai></template>
+</category>
+
+    <!-- Using Fire Extinguishers Properly -->
+  <category>
+    <pattern>USE FIRE</pattern>
+    <template>
+        To use a fire extinguisher properly, follow the PASS method:
+       <br/> 1. P- Pull the pin to break the tamper seal.
+        <br/>2. A- Aim the nozzle at the base of the fire.
+        <br/>3. S- Squeeze the handle to release the extinguishing agent.
+        <br/>4. S- Sweep the nozzle from side to side until the fire is out.
+        <br/><br/>Always ensure you have a clear exit path before using an extinguisher and only attempt to put out small, manageable fires.
+    </template>
+</category>
+
+<category>
+    <pattern>* USE FIRE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>USE FIRE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>USE * FIRE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* USE * FIRE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>USE FIRE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* USE FIRE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE USE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE USE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE USE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE * USE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE * USE</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRE USE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRE USE *</pattern>
+    <template><srai>USE FIRE</srai></template>
+</category>
+</aiml>

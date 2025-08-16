@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>BLEEDING</pattern>
+    <template>Apply direct pressure with a clean cloth or bandage to stop the bleeding. If the bleeding doesn't stop, or is severe, call 1122 to seek medical help.
+            In case of puncture wound, do not remove the object if it is still in place. stabilize it with cloths or bandages and seek medical help.
+    </template>
+</category>
+
+<category>
+    <pattern>* BLEEDING</pattern>
+    <template><srai>BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING *</pattern>
+    <template><srai>BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING *</pattern>
+    <template><srai>BLEEDING</srai></template>
+</category>
+
+<!-- ques  --> 
+<category>
+    <pattern>STOP BLEEDING</pattern>
+    <template>Apply direct pressure to the wound. Seek medical help if the bleeding is severe, does not stop after 10 minutes of pressure, or if the wound shows signs of infection (redness, swelling, pus).</template>
+</category>
+
+<category>
+    <pattern>* STOP BLEEDING</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>STOP BLEEDING *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>STOP * BLEEDING</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* STOP * BLEEDING</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>STOP * BLEEDING *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* STOP * BLEEDING *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+  <!-- ques  --> 
+
+ <category>
+    <pattern>BLEEDING STOP</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING STOP</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING STOP *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * STOP</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * STOP</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * STOP *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * STOP *</pattern>
+    <template><srai>STOP BLEEDING</srai></template>
+</category>
+
+  <!-- ques  --> 
+
+  <category>
+    <pattern>BLEEDING INFECTION</pattern>
+    <template>Cover the wound with a clean dressing or bandage, avoid direct contact with the wound, and seek medical attention to ensure proper wound care.</template>
+</category>
+
+<category>
+    <pattern>* BLEEDING INFECTION</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING INFECTION *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * INFECTION</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * INFECTION</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * INFECTION *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * INFECTION *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+  <!-- ques  --> 
+
+<category>
+    <pattern>INFECTION BLEEDING</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION BLEEDING</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION BLEEDING *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION * BLEEDING</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION * BLEEDING</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>INFECTION * BLEEDING *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+<category>
+    <pattern>* INFECTION * BLEEDING *</pattern>
+    <template><srai>BLEEDING INFECTION</srai></template>
+</category>
+
+  <!-- ques  --> 
+
+  <category>
+    <pattern>TOURNIQUET</pattern>
+    <template>
+      A tourniquet is a medical device used to control severe bleeding by applying pressure to a limb. It is typically used in emergencies when direct pressure alone does not stop the bleeding. A tourniquet is applied above the wound (not over a joint) and tightened until the bleeding stops. It helps prevent blood loss until medical help arrives.
+    </template>
+</category>
+
+<category>
+    <pattern>* TOURNIQUET</pattern>
+    <template><srai>TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>TOURNIQUET *</pattern>
+    <template><srai>TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>* TOURNIQUET *</pattern>
+    <template><srai>TOURNIQUET</srai></template>
+</category>
+
+  <!-- ques  --> 
+<category>
+    <pattern>USE TOURNIQUET</pattern>
+    <template>
+      To use a tourniquet effectively in an emergency, follow these steps:
+
+      1. **Ensure Safety**: Make sure the scene is safe for both you and the injured person.
+      2. **Apply Above the Wound**: Place the tourniquet 2-4 inches above the injury site, but not directly over a joint.
+      3. **Tighten the Tourniquet**: Tighten the tourniquet until the bleeding stops. You should be able to stop the bleeding without causing excessive pain or injury.
+      4. **Note the Time**: Mark the time when the tourniquet was applied. Prolonged use may cause tissue damage.
+      5. **Monitor the Person**: Keep the person calm and still while waiting for medical help to arrive. Do not remove or loosen the tourniquet unless instructed by medical professionals.
+      6. **Seek Immediate Help**: Call emergency services as soon as possible for advanced care.
+
+      Remember, a tourniquet is a life-saving measure used for severe bleeding, and professional medical treatment should follow as soon as possible.
+    </template>
+</category>
+
+<category>
+    <pattern>* USE TOURNIQUET</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>USE TOURNIQUET *</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>* USE * TOURNIQUET</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>USE * TOURNIQUET</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>USE * TOURNIQUET *</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<category>
+    <pattern>* USE * TOURNIQUET *</pattern>
+    <template><srai>USE TOURNIQUET</srai></template>
+</category>
+
+<!-- ques  --> 
+<category>
+    <pattern>MULTIPLE BLEEDING</pattern>
+    <template>Apply pressure to the most serious wound first, then move to the other wounds. Use tourniquets for life-threatening bleeding, and control bleeding with pressure and dressing.</template>
+</category>
+
+<category>
+    <pattern>* MULTIPLE BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MULTIPLE BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MULTIPLE * BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* MULTIPLE * BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MULTIPLE * BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* MULTIPLE * BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+  <!-- ques  --> 
+
+ <category>
+    <pattern>MANY BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* MANY BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MANY BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MANY * BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* MANY * BLEEDING</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>MANY * BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* MANY * BLEEDING *</pattern>
+    <template><srai>MULTIPLE BLEEDING</srai></template>
+</category>
+
+<!-- ques  --> 
+
+<category>
+    <pattern>SHOCK BLEEDING</pattern>
+    <template>if the person shows Symptoms of Shock like rapid heartbeat, low blood pressure, confusion, pale or cold skin, and shallow breathing. Call 1122 immediately</template>
+</category>
+
+<category>
+    <pattern>* SHOCK BLEEDING</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK BLEEDING *</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * BLEEDING</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * BLEEDING</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * BLEEDING *</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * BLEEDING *</pattern>
+    <template><srai>SHOCK BLEEDING</srai></template>
+</category>
+
+<!-- ques  --> 
+
+<category>
+    <pattern>BLEEDING FRACTURES</pattern>
+    <template>Apply pressure to control bleeding, immobilize the fractured bone, and treat for shock.</template>
+</category>
+
+<category>
+    <pattern>* BLEEDING FRACTURES</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING FRACTURES *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * FRACTURES</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * FRACTURES</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * FRACTURES *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * FRACTURES *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+ 
+ 
+  <!-- ques  --> 
+
+<category>
+    <pattern>FRACTURE BLEEDING</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>* FRACTURE BLEEDING</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>FRACTURE BLEEDING *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>FRACTURE * BLEEDING</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>* FRACTURE * BLEEDING</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>FRACTURE * BLEEDING *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+<category>
+    <pattern>* FRACTURE * BLEEDING *</pattern>
+    <template><srai>BLEEDING FRACTURES</srai></template>
+</category>
+
+  
+<!-- ques  --> 
+
+  <category>
+    <pattern>BLEEDING GLASS</pattern>
+    <template>Apply direct pressure to control bleeding, avoid removing any visible glass or debris, and cover the wound with a sterile dressing. Keep the person calm and seek medical attention for proper wound care and potential tetanus shots.</template>
+</category>
+
+<category>
+    <pattern>* BLEEDING GLASS</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING GLASS *</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * GLASS</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * GLASS</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+
+<category>
+    <pattern>BLEEDING * GLASS *</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+
+<category>
+    <pattern>* BLEEDING * GLASS *</pattern>
+    <template><srai>BLEEDING GLASS</srai></template>
+</category>
+<!-- ques -->
+<category>
+    <pattern>Glass BLEEDING</pattern>
+    <template>Apply direct pressure to control bleeding, avoid removing any visible glass or debris, and cover the wound with a sterile dressing. Keep the person calm and seek medical attention for proper wound care and potential tetanus shots.</template>
+</category>
+
+<category>
+    <pattern>* Glass BLEEDING</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>Glass BLEEDING *</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>Glass * BLEEDING</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* Glass * BLEEDING</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>Glass * BLEEDING *</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+<category>
+    <pattern>* Glass * BLEEDING *</pattern>
+    <template><srai>Glass BLEEDING</srai></template>
+</category>
+
+    <!-- For defination  -->
+
+<category>
+    <pattern>DEFINE *</pattern>
+    <template>
+        <think><set name="define_word"><star/></set></think>
+        Let me find the definition of "<get name="define_word"/>". Please wait...
+        <get name="definition"/>
+    </template>
+</category>
+
+<category>
+    <pattern>DEFINITION *</pattern>
+    <template>
+        <srai>DEFINE <get name="define_word"/></srai>
+    </template>
+</category>
+
+    <!-- For sentence type  -->
+<category>
+    <pattern>SENTENCE</pattern>
+    <template>
+        Debug: sentence_type=<get name="sentence_type" default="not set"/>,
+        sentiment=<get name="sentiment" default="not set"/>.
+        Your last sentence was <get name="sentence_type"/> and had a <get name="sentiment"/> sentiment.
+    </template>
+</category>
+
+<category>
+    <pattern>* SENTENCE</pattern>
+    <template>
+        <srai>SENTENCE</srai>
+    </template>
+</category>
+<category>
+    <pattern>SENTENCE *</pattern>
+    <template>
+        <srai>SENTENCE</srai>
+    </template>
+</category>
+<category>
+    <pattern>* SENTENCE *</pattern>
+    <template>
+        <srai>SENTENCE</srai>
+    </template>
+</category>
+
+    <!-- For MOOD  -->
+<category>
+    <pattern>MOOD</pattern>
+    <template>
+        <get name="user_mood"/>
+        <condition name="user_mood">
+            <li value="positive">You're in a good mood! Keep it up!</li>
+            <li value="negative">It seems you're not feeling great. Let me know how I can assist you.</li>
+            <li value="neutral">You're neutral at the moment. How can I help?</li>
+            <li>I'm not sure how you're feeling right now.</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>MOOD *</pattern>
+    <template>
+        <srai>MOOD</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* MOOD</pattern>
+    <template>
+        <srai>MOOD</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* MOOD *</pattern>
+    <template>
+        <srai>MOOD</srai>
+    </template>
+</category>
+
+    <!-- For entities  -->
+<category>
+    <pattern>ENTITIES</pattern>
+    <template>
+        The named entities detected were: <get name="ner_tags"/>
+    </template>
+</category>
+
+
+<category>
+    <pattern>POS TAGS</pattern>
+    <template>
+        The POS tags detected were: <get name="pos_tags"/>
+    </template>
+</category>
+
+</aiml>

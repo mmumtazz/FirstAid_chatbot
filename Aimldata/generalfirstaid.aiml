@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>WHAT IS FIRST AID</pattern>
+        <template>
+            First aid is the initial assistance or treatment given to a person who is injured or suddenly becomes ill, before professional medical help arrives or the person can get to a healthcare facility. It aims to preserve life, prevent further harm, and promote recovery.
+        </template>
+    </category>
+    
+    <category>
+    <pattern>DEFINE FIRST AID</pattern>
+    <template><srai>WHAT IS FIRST AID</srai></template>
+</category>
+    
+     <category>
+    <pattern>WHATS FIRST AID</pattern>
+    <template><srai>WHAT IS FIRST AID</srai></template>
+</category>
+
+ <category>
+    <pattern>WHAT'S FIRST AID</pattern>
+    <template><srai>WHAT IS FIRST AID</srai></template>
+</category>
+ <category>
+    <pattern>WHAT IS FIRST AID *</pattern>
+    <template><srai>WHAT IS FIRST AID</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Fracture -->
+ <category>
+    <pattern>FRACTURE</pattern>
+    <template>
+        <br/>1. Keep the affected limb as still as possible.
+        <br/>2. Apply a splint if you are trained to do so.
+        <br/>3. Elevate the limb to reduce swelling.
+       <br/>4. Apply ice (wrapped in a cloth) for 15-20 minutes to reduce swelling and pain.
+       <br/>5. Seek medical attention immediately for a proper diagnosis and treatment.
+    </template>
+</category>
+
+<category>
+    <pattern>* FRACTURE</pattern>
+    <template><srai>FRACTURE</srai></template>
+</category>
+
+<category>
+    <pattern>FRACTURE *</pattern>
+    <template><srai>FRACTURE</srai></template>
+</category>
+
+<category>
+    <pattern>* FRACTURE *</pattern>
+    <template><srai>FRACTURE</srai></template>
+</category>
+
+    <!-- First Aid Tips for an Insect Bite -->
+  <category>
+    <pattern>INSECT</pattern>
+    <template>
+        1. Clean the bite area with soap and water.
+        2. Apply an anti-itch cream or an ice pack to reduce swelling and discomfort.
+        3. Take over-the-counter antihistamines if you experience itching or swelling.
+        4. Watch for signs of severe reactions such as difficulty breathing or swelling around the eyes and lips, and seek medical help if needed.
+    </template>
+</category>
+
+<category>
+    <pattern>* INSECT</pattern>
+    <template><srai>INSECT</srai></template>
+</category>
+
+<category>
+    <pattern>INSECT *</pattern>
+    <template><srai>INSECT</srai></template>
+</category>
+
+<category>
+    <pattern>* INSECT *</pattern>
+    <template><srai>INSECT</srai></template>
+</category>
+
+    <!-- First Aid Tips for Poisoning -->
+ <category>
+    <pattern>POISON</pattern>
+    <template>
+        1. Call emergency services immediately.
+        2. If the person is conscious and alert, try to find out what poison was ingested.
+        3. Do not induce vomiting unless directed by a healthcare professional.
+        4. If the poison was a chemical or toxin on the skin, remove contaminated clothing and rinse the skin with water for 15-20 minutes.
+    </template>
+</category>
+
+<category>
+    <pattern>* POISON</pattern>
+    <template><srai>POISON</srai></template>
+</category>
+
+<category>
+    <pattern>POISON *</pattern>
+    <template><srai>POISON</srai></template>
+</category>
+
+<category>
+    <pattern>* POISON *</pattern>
+    <template><srai>POISON</srai></template>
+</category>
+
+    <!-- First Aid Tips for an Asthma Attack -->
+ <category>
+    <pattern>ASTHMA</pattern>
+    <template>
+        1. Help the person sit up and remain calm.
+        2. Encourage them to use their prescribed inhaler or medication.
+        3. If the symptoms persist for more than 5-10 minutes, seek emergency medical assistance.
+        4. Make sure they are in a well-ventilated space and remove any known triggers if possible.
+    </template>
+</category>
+
+<category>
+    <pattern>* ASTHMA</pattern>
+    <template><srai>ASTHMA</srai></template>
+</category>
+
+<category>
+    <pattern>ASTHMA *</pattern>
+    <template><srai>ASTHMA</srai></template>
+</category>
+
+<category>
+    <pattern>* ASTHMA *</pattern>
+    <template><srai>ASTHMA</srai></template>
+</category>
+
+    <!-- First Aid Tips for Seizures -->
+   <category>
+    <pattern>SEIZURE</pattern>
+    <template>
+        1. Move any nearby objects that could cause injury.
+        2. Place a soft cushion or clothing under their head to prevent injury.
+        3. Time the duration of the seizure.
+        4. Do not hold them down or try to put anything in their mouth.
+        5. Stay with them until the seizure ends and they are fully alert.
+        6. Seek medical help if the seizure lasts longer than 5 minutes or if another seizure follows immediately.
+    </template>
+</category>
+
+<category>
+    <pattern>* SEIZURE</pattern>
+    <template><srai>SEIZURE</srai></template>
+</category>
+
+<category>
+    <pattern>SEIZURE *</pattern>
+    <template><srai>SEIZURE</srai></template>
+</category>
+
+<category>
+    <pattern>* SEIZURE *</pattern>
+    <template><srai>SEIZURE</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Nosebleed (More Detail) -->
+<category>
+    <pattern>NOSEBLEED</pattern>
+    <template>
+        1. Keep pinching your nostrils together while leaning slightly forward.
+        2. If bleeding persists for more than 20 minutes, seek medical attention.
+        3. Avoid blowing your nose for several hours after the bleeding stops.
+        4. Apply a nasal saline spray or use a humidifier to prevent nosebleeds from recurring.
+    </template>
+</category>
+
+<category>
+    <pattern>* NOSEBLEED</pattern>
+    <template><srai>NOSEBLEED</srai></template>
+</category>
+
+<category>
+    <pattern>NOSEBLEED *</pattern>
+    <template><srai>NOSEBLEED</srai></template>
+</category>
+
+<category>
+    <pattern>* NOSEBLEED *</pattern>
+    <template><srai>NOSEBLEED</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Sunburn -->
+  <category>
+    <pattern>SUNBURN</pattern>
+    <template>
+        1. Drink plenty of fluids to stay hydrated.
+        2. Apply aloe vera gel or an over-the-counter hydrocortisone cream to soothe the skin.
+        3. Take a cool bath or use a cool compress to reduce discomfort.
+        4. Avoid further sun exposure until the skin heals.
+        5. If blistering occurs or the pain is severe, consult a doctor.
+    </template>
+</category>
+<category>
+    <pattern>* SUNBURN</pattern>
+    <template><srai>SUNBURN</srai></template>
+</category>
+
+<category>
+    <pattern>SUNBURN *</pattern>
+    <template><srai>SUNBURN</srai></template>
+</category>
+
+<category>
+    <pattern>* SUNBURN *</pattern>
+    <template><srai>SUNBURN</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Bee Sting -->
+<category>
+    <pattern>BEE STING</pattern>
+    <template>
+        1. Remove the stinger by scraping it off with a flat object (e.g., a credit card).
+        2. Clean the area with soap and water.
+        3. Apply an ice pack to reduce swelling and pain.
+        4. Take an antihistamine if you experience swelling or itching.
+        5. Seek medical attention if you experience difficulty breathing, swelling in the throat, or other severe allergic reactions.
+    </template>
+</category>
+
+<category>
+    <pattern>* BEE STING</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+<category>
+    <pattern>BEE STING *</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+<category>
+    <pattern>BEE * STING</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+<category>
+    <pattern>* BEE STING *</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+<category>
+    <pattern>BEE * STING *</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+<category>
+    <pattern>* BEE * STING</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+<category>
+    <pattern>* BEE * STING *</pattern>
+    <template><srai>BEE STING</srai></template>
+</category>
+
+    <!-- cutr -->
+    <category>
+    <pattern>CUT</pattern>
+    <template>
+           1. Clean the cut with clean water and mild soap.
+           2. Apply pressure to stop any bleeding.
+           3. Cover the cut with a sterile bandage.
+            4. Keep an eye out for signs of infection (redness, swelling, or discharge).
+    </template>
+</category>
+
+<category>
+    <pattern>* CUT</pattern>
+    <template><srai>CUT</srai></template>
+</category>
+<category>
+    <pattern>CUT *</pattern>
+    <template><srai>CUT</srai></template>
+</category>
+
+<category>
+    <pattern>* CUT *</pattern>
+    <template><srai>CUT</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Sprain -->
+<category>
+    <pattern>SPRAIN</pattern>
+    <template>
+        1. Rest the affected area and avoid using it.
+        2. Apply ice wrapped in a cloth for 15-20 minutes every 2-3 hours.
+        3. Compress the area with an elastic bandage to reduce swelling.
+        4. Elevate the area to decrease swelling.
+        5. Seek medical attention if swelling or pain persists.
+    </template>
+</category>
+
+<category>
+    <pattern>* SPRAIN</pattern>
+    <template><srai>SPRAIN</srai></template>
+</category>
+
+<category>
+    <pattern>SPRAIN *</pattern>
+    <template><srai>SPRAIN</srai></template>
+</category>
+
+<category>
+    <pattern>* SPRAIN *</pattern>
+    <template><srai>SPRAIN</srai></template>
+</category>
+
+     <!-- First Aid Tips for a Head Injury -->
+<category>
+    <pattern>INJURY</pattern>
+    <template>
+        1. If the injury is minor, apply a cold pack to the area to reduce swelling.
+        2. Monitor the person for symptoms of a concussion (dizziness, headache, confusion).
+        3. Seek medical attention immediately if there is loss of consciousness, vomiting, or severe pain.
+    </template>
+</category>
+
+<category>
+    <pattern>* INJURY</pattern>
+    <template><srai>INJURY</srai></template>
+</category>
+
+<category>
+    <pattern>INJURY *</pattern>
+    <template><srai>INJURY</srai></template>
+</category>
+
+<category>
+    <pattern>* INJURY *</pattern>
+    <template><srai>INJURY</srai></template>
+</category>
+
+    <!-- First Aid Tips for Choking -->
+<category>
+    <pattern>CHOKING</pattern>
+    <template>
+        1. Encourage the person to cough if they are able to.
+        2. Perform the Heimlich maneuver by standing behind them and applying upward pressure just above the navel.
+        3. If they lose consciousness, call emergency services and begin CPR if trained to do so.
+    </template>
+</category>
+
+<category>
+    <pattern>* CHOKING</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>CHOKING *</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>* CHOKING *</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>* CHOKE *</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>* CHOKE</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>CHOKE *</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+
+<category>
+    <pattern>CHOKE</pattern>
+    <template><srai>CHOKING</srai></template>
+</category>
+    <!-- General First Aid Tip -->
+ <category>
+    <pattern>TIPS</pattern>
+    <template>
+        1. Always wash your hands before and after providing first aid.
+        2. Keep a well-stocked first aid kit accessible.
+        3. Know basic first aid for common injuries like cuts, burns, and fractures.
+        4. Never apply ice or cold packs directly to the skin; always use a cloth or towel.
+    </template>
+</category>
+
+<category>
+    <pattern>* TIPS</pattern>
+    <template><srai>TIPS</srai></template>
+</category>
+
+<category>
+    <pattern>TIPS *</pattern>
+    <template><srai>TIPS</srai></template>
+</category>
+
+<category>
+    <pattern>* TIPS *</pattern>
+    <template><srai>TIPS</srai></template>
+</category>
+
+<!-- First Aid Tips for a Toothache -->
+<category>
+    <pattern>TOOTHACHE</pattern>
+    <template>
+        1. Rinse your mouth with warm salt water to reduce swelling and clean the area.
+        2. Apply a cold compress to the outside of your cheek to alleviate pain.
+        3. Use over-the-counter pain relievers like ibuprofen or acetaminophen as directed.
+        4. Avoid placing aspirin directly on the tooth or gums as it can cause irritation.
+        5. See a dentist as soon as possible for proper treatment.
+    </template>
+</category>
+
+<category>
+    <pattern>* TOOTHACHE</pattern>
+    <template><srai>TOOTHACHE</srai></template>
+</category>
+
+<category>
+    <pattern>TOOTHACHE *</pattern>
+    <template><srai>TOOTHACHE</srai></template>
+</category>
+
+<category>
+    <pattern>* TOOTHACHE *</pattern>
+    <template><srai>TOOTHACHE</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Dislocated Joint -->
+<category>
+    <pattern>DISLOCATED</pattern>
+    <template>
+        1. Keep the joint as still as possible and avoid moving it.
+        2. Apply ice to reduce swelling for 15-20 minutes every 2-3 hours.
+        3. Elevate the joint to decrease swelling.
+        4. Seek medical attention immediately; do not attempt to pop the joint back into place yourself.
+    </template>
+</category>
+
+<category>
+    <pattern>* DISLOCATED</pattern>
+    <template><srai>DISLOCATED</srai></template>
+</category>
+
+<category>
+    <pattern>DISLOCATED *</pattern>
+    <template><srai>DISLOCATED</srai></template>
+</category>
+
+<category>
+    <pattern>* DISLOCATED *</pattern>
+    <template><srai>DISLOCATED</srai></template>
+</category>
+
+    <!-- First Aid Tips for a Splinter -->
+<category>
+    <pattern>SPLINTER</pattern>
+    <template>
+        1. Wash the area with soap and water.
+        2. Use a clean pair of tweezers to gently pull the splinter out at the same angle it entered.
+        3. Clean the wound again and apply an antibiotic ointment.
+        4. Cover with a bandage and keep an eye on it for signs of infection.
+    </template>
+</category>
+
+<category>
+    <pattern>* SPLINTER</pattern>
+    <template><srai>SPLINTER</srai></template>
+</category>
+
+<category>
+    <pattern>SPLINTER *</pattern>
+    <template><srai>SPLINTER</srai></template>
+</category>
+
+<category>
+    <pattern>* SPLINTER *</pattern>
+    <template><srai>SPLINTER</srai></template>
+</category>
+
+
+    <!-- First Aid Tips for a Severe Headache or Migraine -->
+<category>
+    <pattern>HEADACHE</pattern>
+    <template>
+        1. Rest in a dark, quiet room and close your eyes.
+        2. Apply a cold or warm compress to your forehead or neck.
+        3. Drink plenty of water to stay hydrated and avoid dehydration.
+        4. Take over-the-counter pain relievers like ibuprofen or acetaminophen as needed.
+        5. If headaches are persistent or severe, consult a doctor for further evaluation.
+    </template>
+</category>
+
+<category>
+    <pattern>* HEADACHE</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>HEADACHE *</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>* HEADACHE *</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>* MIGRAINE *</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>MIGRAINE *</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>* MIGRAINE</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+<category>
+    <pattern>MIGRAINE</pattern>
+    <template><srai>HEADACHE</srai></template>
+</category>
+
+    <!-- First Aid Tips for Allergic Reactions -->
+<category>
+    <pattern>ALLERGY</pattern>
+    <template>
+        1. Identify and remove the allergen if possible.
+        2. Take an antihistamine to reduce mild symptoms.
+        3. Use a cool compress on the affected area to soothe itching and swelling.
+        4. If symptoms include swelling of the face or throat, difficulty breathing, or anaphylaxis, seek emergency medical help immediately.
+    </template>
+</category>
+
+<category>
+    <pattern>* ALLERGY</pattern>
+    <template><srai>ALLERGY</srai></template>
+</category>
+
+<category>
+    <pattern>ALLERGY *</pattern>
+    <template><srai>ALLERGY</srai></template>
+</category>
+
+<category>
+    <pattern>* ALLERGY *</pattern>
+    <template><srai>ALLERGY</srai></template>
+</category>
+</aiml>

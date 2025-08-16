@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+    <pattern>SIGNS OVERDOSE</pattern>
+    <template>Signs include difficulty breathing, unconsciousness, confusion, seizures, irregular heartbeat, bluish lips or face, and unresponsiveness.</template>
+</category>
+
+<category>
+    <pattern>* SIGNS OVERDOSE</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS OVERDOSE *</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * OVERDOSE</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * OVERDOSE</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * OVERDOSE *</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * OVERDOSE *</pattern>
+    <template><srai>SIGNS OVERDOSE</srai></template>
+</category>
+
+<!-- ques  -->   
+    <category>
+    <pattern>OVERDOSE</pattern>
+    <template>Call 1122 immediately. If available, administer naloxone (Narcan). Ensure they are in a safe position, monitor their breathing. Provide CPR if the person stops breathing.</template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE</pattern>
+    <template><srai>OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE *</pattern>
+    <template><srai>OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE *</pattern>
+    <template><srai>OVERDOSE</srai></template>
+</category>
+
+<!-- ques  -->   
+  <category>
+    <pattern>FIRST AID OVERDOSING</pattern>
+    <template>Keep the person calm and awake if possible. Ensure they are in a safe position, monitor their breathing, and seek medical help immediately from 1122.</template>
+</category>
+
+<category>
+    <pattern>* FIRST AID OVERDOSING</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID OVERDOSING *</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * OVERDOSING</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * OVERDOSING</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * OVERDOSING *</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * OVERDOSING *</pattern>
+    <template><srai>FIRST AID OVERDOSING</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID OVERDOSE</pattern>
+    <template>Keep the person calm and awake if possible. Ensure they are in a safe position, monitor their breathing, and seek medical help immediately from 1122.</template>
+</category>
+
+<category>
+    <pattern>* FIRST AID OVERDOSE</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID OVERDOSE *</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * OVERDOSE</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * OVERDOSE</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * OVERDOSE *</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * OVERDOSE *</pattern>
+    <template><srai>FIRST AID OVERDOSE</srai></template>
+</category>
+
+
+<!-- ques  -->   
+    <category>
+    <pattern>BREATHING OVERDOSE</pattern>
+    <template>Ensure their airway is open, perform rescue breathing or CPR if needed, and call for 1122.</template>
+</category>
+
+<category>
+    <pattern>* BREATHING OVERDOSE</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING OVERDOSE *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING * OVERDOSE</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* BREATHING * OVERDOSE</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING * OVERDOSE *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* BREATHING * OVERDOSE *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<!-- ques  -->       
+  <category>
+    <pattern>OVERDOSE BREATHING</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE BREATHING</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE BREATHING *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * BREATHING</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * BREATHING</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * BREATHING *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * BREATHING *</pattern>
+    <template><srai>BREATHING OVERDOSE</srai></template>
+</category>
+
+ <!-- ques  -->      
+    <category>
+    <pattern>VOMIT OVERDOSE</pattern>
+    <template>
+        <ul>
+            <li>Do not induce vomiting unless instructed by a medical professional, as it can cause choking or further harm.</li>
+            <li>If they are vomiting, ensure their airway remains open by tilting the head back and lifting the chin. (This can help them to breathe and stop them from choking if they vomit.) Check breathing and monitor their condition until help arrives.</li>
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>* VOMIT OVERDOSE</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMIT OVERDOSE *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMIT * OVERDOSE</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* VOMIT * OVERDOSE</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMIT * OVERDOSE *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* VOMIT * OVERDOSE *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+    <!-- ques  -->   
+ <category>
+    <pattern>OVERDOSE VOMIT</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE VOMIT</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE VOMIT *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * VOMIT</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * VOMIT</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * VOMIT *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * VOMIT *</pattern>
+    <template><srai>VOMIT OVERDOSE</srai></template>
+</category>
+
+  <!-- ques  -->     
+   <category>
+    <pattern>FOOD OVERDOSE</pattern>
+    <template>No, do not give food or drink unless advised by medical professionals, as it can lead to choking or aspiration.</template>
+</category>
+
+<category>
+    <pattern>* FOOD OVERDOSE</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD OVERDOSE *</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD * OVERDOSE</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FOOD * OVERDOSE</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD * OVERDOSE *</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>* FOOD * OVERDOSE *</pattern>
+    <template><srai>FOOD OVERDOSE</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE FOOD</pattern>
+    <template>No, do not give food or drink unless advised by medical professionals, as it can lead to choking or aspiration.</template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE FOOD</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE FOOD *</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * FOOD</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * FOOD</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+
+<category>
+    <pattern>OVERDOSE * FOOD *</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+
+<category>
+    <pattern>* OVERDOSE * FOOD *</pattern>
+    <template><srai>OVERDOSE FOOD</srai></template>
+</category>
+</aiml>

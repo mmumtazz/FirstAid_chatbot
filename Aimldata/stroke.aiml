@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>SIGNS STROKE</pattern>
+    <template>Early warning signs of a stroke include sudden numbness or weakness in the face, arm, or leg, confusion, trouble speaking or understanding, vision problems, and difficulty walking or balancing.<br/>For a non-verbal person, observe physical signs like drooping face, weakness, or trouble with balance to identify a stroke.<br/>In infants, stroke signs can include sudden weakness, loss of coordination, trouble feeding, or unexplained irritability.</template>
+</category>
+
+<category>
+    <pattern>* SIGNS STROKE</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS STROKE *</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * STROKE</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * STROKE</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * STROKE *</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * STROKE *</pattern>
+    <template><srai>SIGNS STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+  <category>
+    <pattern>FAST METHOD STROKE</pattern>
+    <template>To use the FAST method for stroke identification, check for: F: Face drooping (ask them to smile, is one side drooping?), A: Arm weakness (ask them to raise both arms, does one fall down?), S: Speech difficulty (ask them to repeat a sentence, is their speech slurred?), T: Time to call for help (if you observe any of these symptoms, call emergency services immediately).</template>
+</category>
+
+<category>
+    <pattern>* FAST METHOD STROKE</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FAST METHOD STROKE *</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FAST METHOD * STROKE</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* FAST METHOD * STROKE</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FAST METHOD * STROKE *</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* FAST METHOD * STROKE *</pattern>
+    <template><srai>FAST METHOD STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+ <category>
+    <pattern>STROKE</pattern>
+    <template>* If someone shows symptoms of a stroke, call emergency services immediately. Stay calm, keep them safe, and note the time symptoms began.
+            <br/>* If the person is unable to move one side of their body, keep them still and monitor their condition and call for emergency help
+            <br/>* If someone is conscious and talking but showing signs of a stroke, remain calm and call for emergency help. Keep them still and monitor their symptoms, as they may worsen.
+            <br/>* If the stroke victim’s vision is impaired or they cannot see out of one eye, keep them calm and notify medical professionals immediately for further assessment and treatment.    
+            <br/>*Do not attempt to lift or move someone having a stroke unless they are in immediate danger. Moving them unnecessarily can cause further injury.
+            <br/>*If the stroke victim is having difficulty understanding or responding, remain calm and try to communicate slowly and clearly. Avoid overwhelming them with too many questions at once.
+            <br/>*If someone has fallen during a stroke, ensure they are safe from further injury. Do not attempt to lift them unless necessary, and wait for professional help to arrive.
+    </template>
+</category>
+
+<category>
+    <pattern>* STROKE</pattern>
+    <template><srai>STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE *</pattern>
+    <template><srai>STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * </pattern>
+    <template><srai>STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+<category>
+    <pattern>STROKE WITHOUT WARNING</pattern>
+    <template>Yes, a stroke can happen without any warning, especially in the case of a hemorrhagic stroke.</template>
+</category>
+
+<category>
+    <pattern>* STROKE WITHOUT WARNING</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE WITHOUT WARNING *</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * WITHOUT WARNING</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * WITHOUT WARNING</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * WITHOUT WARNING *</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * WITHOUT WARNING *</pattern>
+    <template><srai>STROKE WITHOUT WARNING</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>POSITION STROKE</pattern>
+    <template>Place the person in a safe position: ideally lying down with the head slightly elevated to avoid choking if they are unconscious. Keep them calm and still.</template>
+</category>
+
+<category>
+    <pattern>* POSITION STROKE</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION STROKE *</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION * STROKE</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION * STROKE</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION * STROKE *</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION * STROKE *</pattern>
+    <template><srai>POSITION STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>FOOD STROKE</pattern>
+    <template>Do not give food or water to someone having a stroke, as they may have difficulty swallowing and risk choking.</template>
+</category>
+
+<category>
+    <pattern>* FOOD STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD * STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* FOOD * STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>FOOD * STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* FOOD * STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>Water STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* Water STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>Water STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>Water * STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* Water * STROKE</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>Water * STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* Water * STROKE *</pattern>
+    <template><srai>FOOD STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+ <category>
+    <pattern>SIGNS MINI STROKE</pattern>
+    <template>Signs of a mini-stroke (TIA) include sudden numbness or weakness, vision problems, trouble speaking, and difficulty with balance. Symptoms usually resolve within minutes to hours.</template>
+</category>
+
+<category>
+    <pattern>* SIGNS MINI STROKE</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS MINI STROKE *</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * MINI STROKE</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * MINI STROKE</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS * MINI STROKE *</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * MINI STROKE *</pattern>
+    <template><srai>SIGNS MINI STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>COMPLICATIONS STROKE</pattern>
+    <template>Prevent complications by keeping the victim still, calm, and monitored until medical help arrives.</template>
+</category>
+
+<category>
+    <pattern>* COMPLICATIONS STROKE</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COMPLICATIONS STROKE *</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COMPLICATIONS * STROKE</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* COMPLICATIONS * STROKE</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COMPLICATIONS * STROKE *</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* COMPLICATIONS * STROKE *</pattern>
+    <template><srai>COMPLICATIONS STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>VOMITING STROKE</pattern>
+    <template>If a stroke victim starts vomiting, turn them to their side to prevent choking, but avoid moving them unnecessarily.</template>
+</category>
+
+<category>
+    <pattern>* VOMITING STROKE</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMITING STROKE *</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMITING * STROKE</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* VOMITING * STROKE</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>VOMITING * STROKE *</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* VOMITING * STROKE *</pattern>
+    <template><srai>VOMITING STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+
+    <category>
+    <pattern>AFTER STROKE</pattern>
+    <template>Contact emergency services on 1122.Help someone recover from confusion by providing reassurance, keeping them calm, and allowing them time to regain their bearings.</template>
+</category>
+
+<category>
+    <pattern>* AFTER STROKE</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER STROKE *</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER * STROKE</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER * STROKE</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER * STROKE *</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER * STROKE *</pattern>
+    <template><srai>AFTER STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+<category>
+    <pattern>HIGH BP STROKE </pattern>
+    <template>High blood pressure is a major risk factor for stroke, as it can damage blood vessels and lead to clots or ruptures.</template>
+</category>
+
+<category>
+    <pattern>* HIGH BP STROKE </pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>HIGH BP STROKE *</pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>HIGH BP * STROKE</pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* HIGH BP * STROKE</pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>HIGH BP * STROKE *</pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* HIGH BP * STROKE *</pattern>
+    <template><srai>HIGH BP STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>MIGRAINE STROKE</pattern>
+    <template>Migraines can mimic stroke symptoms, especially if they involve visual disturbances, numbness, or weakness. However, strokes typically cause sudden, severe symptoms, while migraines develop gradually.</template>
+</category>
+
+<category>
+    <pattern>* MIGRAINE STROKE</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>MIGRAINE STROKE *</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>MIGRAINE * STROKE</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* MIGRAINE * STROKE</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>MIGRAINE * STROKE *</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* MIGRAINE * STROKE *</pattern>
+    <template><srai>MIGRAINE STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+  <category>
+    <pattern>STROKE REMOTE</pattern>
+    <template>If a stroke occurs in a remote area, call emergency services immediately. Keep the victim still, monitor vital signs, and make them as comfortable as possible while waiting for help.</template>
+</category>
+
+<category>
+    <pattern>* STROKE REMOTE</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE REMOTE *</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * REMOTE</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * REMOTE</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * REMOTE *</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * REMOTE *</pattern>
+    <template><srai>STROKE REMOTE</srai></template>
+</category>
+
+ <!-- ques  -->   
+    <category>
+    <pattern>TRIGGER STROKE</pattern>
+    <template>Yes, certain medications, especially those that affect blood clotting, like birth control pills, can increase stroke risk in some individuals, particularly those with underlying health conditions.</template>
+</category>
+
+<category>
+    <pattern>* TRIGGER STROKE</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>TRIGGER STROKE *</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>TRIGGER * STROKE</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* TRIGGER * STROKE</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>TRIGGER * STROKE *</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* TRIGGER * STROKE *</pattern>
+    <template><srai>TRIGGER STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+ <category>
+    <pattern>SPEECH STROKE</pattern>
+    <template>Slurred speech is a common sign of a stroke, but it can also be caused by other issues like alcohol intoxication, seizures, or neurological conditions. If it occurs suddenly, it is more likely to be a stroke.</template>
+</category>
+
+<category>
+    <pattern>* SPEECH STROKE</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SPEECH STROKE *</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SPEECH * STROKE</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SPEECH * STROKE</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SPEECH * STROKE *</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SPEECH * STROKE *</pattern>
+    <template><srai>SPEECH STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+    <category>
+    <pattern>CPR STROKE</pattern>
+    <template>If someone having a stroke stops breathing, you should perform CPR. Strokes do not prevent CPR, but strokes can sometimes cause a person to stop breathing due to other complications.</template>
+</category>
+
+<category>
+    <pattern>* CPR STROKE</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CPR STROKE *</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CPR * STROKE</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR * STROKE</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CPR * STROKE *</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR * STROKE *</pattern>
+    <template><srai>CPR STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+    <category>
+    <pattern>STROKES HEAD</pattern>
+    <template>Strokes can occur after head trauma, particularly if there is bleeding in the brain, which can lead to a hemorrhagic stroke. Do perform the FAST TEST on them!</template>
+</category>
+
+<category>
+    <pattern>* STROKES HEAD</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+<category>
+    <pattern>STROKES HEAD *</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+<category>
+    <pattern>STROKES * HEAD</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKES * HEAD</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+<category>
+    <pattern>STROKES * HEAD *</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKES * HEAD *</pattern>
+    <template><srai>STROKES HEAD</srai></template>
+</category>
+
+ <!-- ques  -->   
+    <category>
+    <pattern>CONFUSED</pattern>
+    <template>If someone is confused or altered, look for physical signs like facial drooping, weakness on one side, or difficulty speaking. Even if they are NOT confused, other stroke symptoms may still be present.</template>
+</category>
+
+<category>
+    <pattern>* CONFUSED</pattern>
+    <template><srai>CONFUSED</srai></template>
+</category>
+
+<category>
+    <pattern>CONFUSED *</pattern>
+    <template><srai>CONFUSED</srai></template>
+</category>
+
+<category>
+    <pattern>* CONFUSED *</pattern>
+    <template><srai>CONFUSED</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>CHECK LOSS STROKE</pattern>
+    <template>To check for loss of coordination or weakness, ask the person to raise both arms or stand up. If one arm or leg weakens or doesn't move, it could indicate a stroke.</template>
+</category>
+
+<category>
+    <pattern>* CHECK LOSS STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK LOSS STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * LOSS STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * LOSS STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK LOSS * STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK LOSS STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * LOSS * STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * LOSS STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK LOSS * STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>CHECK * LOSS * STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * LOSS * STROKE</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK  LOSS * STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * LOSS STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* CHECK * LOSS * STROKE *</pattern>
+    <template><srai>CHECK LOSS STROKE</srai></template>
+</category>
+ <!-- ques  -->   
+    <category>
+    <pattern>BREATHING STROKE</pattern>
+    <template>If the stroke victim starts having trouble breathing, ensure their airway is clear and initiate CPR if necessary. Call for immediate medical assistance.</template>
+</category>
+
+<category>
+    <pattern>* BREATHING STROKE</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING STROKE *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING * STROKE</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* BREATHING * STROKE</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>BREATHING * STROKE *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* BREATHING * STROKE *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>STROKE BREATHING</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE BREATHING</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE BREATHING *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * BREATHING</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * BREATHING</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * BREATHING *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * BREATHING *</pattern>
+    <template><srai>BREATHING STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+    <category>
+    <pattern>SWALLOWING STROKE</pattern>
+    <template>If someone is having trouble swallowing, do not give them food or liquid. Keep them in a safe position to avoid choking, and wait for professional medical help.</template>
+</category>
+
+<category>
+    <pattern>* SWALLOWING STROKE</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SWALLOWING STROKE *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SWALLOWING * STROKE</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SWALLOWING * STROKE</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>SWALLOWING * STROKE *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* SWALLOWING * STROKE *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>STROKE SWALLOWING</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE SWALLOWING</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE SWALLOWING *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * SWALLOWING</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * SWALLOWING</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>STROKE * SWALLOWING *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* STROKE * SWALLOWING *</pattern>
+    <template><srai>SWALLOWING STROKE</srai></template>
+</category>
+
+ <!-- ques  -->       
+    <category>
+    <pattern>ASPIRIN STROKE</pattern>
+    <template>Do not give aspirin or any medication to a stroke victim unless prescribed by a doctor, as it could make the condition worse, especially in the case of a hemorrhagic stroke.</template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN STROKE</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN STROKE *</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN * STROKE</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN * STROKE</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN * STROKE *</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN * STROKE *</pattern>
+    <template><srai>ASPIRIN STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+ <category>
+    <pattern>FAST TEST</pattern>
+    <template>The FAST acronym (Face, Arms, Speech, Time) is a test to quickly identify the three most common signs of stroke. 
+        <br/>F = Face — Ask the person to smile. ...
+        <br/>A = Arms — Ask the person to raise both arms. ...
+        <br/>S = Speech — Ask the person to repeat a simple phrase. ...
+        <br/>T = Time — If the person failed any part of the test, note the time and get help.<br/>
+        <br/>If the victim is unconscious or semi-conscious, you can still look for signs of facial drooping, arm weakness, or speech difficulty. If any of these are present, call for emergency help immediately.
+    </template>
+</category>
+
+<category>
+    <pattern>* FAST TEST</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+<category>
+    <pattern>FAST TEST *</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+<category>
+    <pattern>FAST * TEST</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+<category>
+    <pattern>* FAST * TEST</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+<category>
+    <pattern>FAST * TEST *</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+<category>
+    <pattern>* FAST * TEST *</pattern>
+    <template><srai>FAST TEST</srai></template>
+</category>
+
+ <!-- ques  -->   
+   <category>
+    <pattern>EMOTIONAL STROKE</pattern>
+    <template>Reassure the person calmly, explain what is happening, and provide emotional support. Let them know help is on the way, and encourage deep breaths to stay calm.</template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL STROKE</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL STROKE *</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL * STROKE</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL * STROKE</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL * STROKE *</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL * STROKE *</pattern>
+    <template><srai>EMOTIONAL STROKE</srai></template>
+</category>
+
+ <!-- ques  -->   
+ <category>
+    <pattern>COLD COMPRESSES STROKE</pattern>
+    <template>Cold compresses are not recommended unless advised by a medical professional. Focus on keeping the victim calm, comfortable, and awaiting medical help.</template>
+</category>
+
+<category>
+    <pattern>* COLD COMPRESSES STROKE</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COLD COMPRESSES STROKE *</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COLD * COMPRESSES STROKE</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* COLD * COMPRESSES STROKE</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>COLD COMPRESSES * STROKE *</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* COLD COMPRESSES * STROKE *</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+<category>
+    <pattern>* COLD * COMPRESSES * STROKE *</pattern>
+    <template><srai>COLD COMPRESSES STROKE</srai></template>
+</category>
+
+
+</aiml>

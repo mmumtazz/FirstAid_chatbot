@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+  <!-- Pattern for emergency numbers -->
+  <category>
+    <pattern>WHAT IS EMERGENCY NUMBER OF *</pattern>
+    <template>
+      <think>
+        <set name="situation"><star index="1" /></set>
+      </think>
+      <condition name="emergency_number">
+        <li value="unknown">Sorry, I couldn't find the emergency number for <get name="situation"/>.</li>
+        <li>The emergency number for <get name="situation"/> is <get name="emergency_number"/>.</li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- Pattern for emergency advice -->
+  <category>
+    <pattern>WHAT IS EMERGENCY ADVICE FOR *</pattern>
+    <template>
+      <think>
+        <set name="situation"><star index="1" /></set>
+      </think>
+      <condition name="emergency_advice">
+        <li value="unknown">Sorry, I couldn't find any advice for <get name="situation"/>.</li>
+        <li>For <get name="situation"/>, here is some advice: <get name="emergency_advice"/>.</li>
+      </condition>
+    </template>
+  </category>
+</aiml>

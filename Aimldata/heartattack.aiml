@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ 
+   <!-- ques 1 -->   
+  <category>
+    <pattern>HEART ATTACK</pattern>
+    <template>1. Call emergency services immediately.
+            2. Keep the person calm and help them sit down in a comfortable position.
+            3. Have them chew or swallow an aspirin if they are not allergic.
+            4. If the person is conscious and alert, encourage them to take slow, deep breaths.
+            5. If they lose consciousness, start CPR if you are trained.</template>
+  </category>
+  
+  <category>
+    <pattern>* HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK</srai></template>
+  </category>
+  <category>
+    <pattern>HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK</srai></template>
+  </category>
+
+   <category>
+    <pattern># HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK</srai></template>
+  </category>
+  <category>
+    <pattern>* HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK</srai></template>
+  </category>
+
+  <category>
+    <pattern>* * HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK</srai></template>
+  </category>
+  <!-- ques 2 -->
+
+  <category>
+    <pattern>BETWEEN CHEST PAIN HEART ATTACK</pattern>
+    <template>Heart attack pain is often severe, may spread to arms, neck, or jaw, and is accompanied by other symptoms like nausea, sweating, or shortness of breath. Heartburn usually feels like burning in the chest and is relieved by antacids.</template>
+</category>
+
+<category>
+    <pattern>* BETWEEN CHEST PAIN HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>BETWEEN CHEST PAIN HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* BETWEEN CHEST PAIN HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>BETWEEN * CHEST PAIN HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>BETWEEN CHEST PAIN * HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>BETWEEN * CHEST PAIN * HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>BETWEEN CHEST PAIN HEART ATTACK * </pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* BETWEEN * CHEST PAIN HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* BETWEEN CHEST PAIN HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* BETWEEN * CHEST PAIN * HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern> * CHEST PAIN * HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>CHEST PAIN * HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+<category>
+    <pattern> * CHEST PAIN * HEART ATTACK</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+<category>
+    <pattern> CHEST PAIN * HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+<category>
+    <pattern> * CHEST PAIN HEART ATTACK *</pattern>
+    <template><srai>BETWEEN CHEST PAIN HEART ATTACK</srai></template>
+</category>
+  <!-- ques 3 -->
+
+
+  <category>
+    <pattern>ASPIRIN HEART ATTACK</pattern>
+    <template>Yes, if the person is not allergic to aspirin or has no contraindications. Give them one adult aspirin (300-325 mg) to chew and swallow, if instructed by emergency personnel.</template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN HEART ATTACK</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN * HEART ATTACK</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ASPIRIN * HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN * HEART ATTACK</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ASPIRIN * HEART ATTACK *</pattern>
+    <template><srai>ASPIRIN HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+ <category>
+    <pattern>POSITION HEART ATTACK</pattern>
+    <template>Have the person sit upright and lean slightly forward to reduce strain on the heart. Avoid lying them flat unless they lose consciousness.</template>
+</category>
+<category>
+    <pattern>* POSITION HEART ATTACK</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION * HEART ATTACK</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>POSITION * HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION * HEART ATTACK</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* POSITION * HEART ATTACK *</pattern>
+    <template><srai>POSITION HEART ATTACK</srai></template>
+</category>
+
+    <!-- ques 4 -->
+<category>
+    <pattern>MONITOR BREATHING HEART ATTACK</pattern>
+    <template>Monitor the person’s chest for movement and listen for breath sounds. Start CPR only if the person is not breathing or has no pulse.</template>
+</category>
+
+<category>
+    <pattern>* MONITOR BREATHING HEART ATTACK</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>MONITOR BREATHING HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* MONITOR BREATHING HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>MONITOR BREATHING * HEART ATTACK</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>MONITOR BREATHING HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>MONITOR BREATHING * HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* MONITOR BREATHING * HEART ATTACK</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* MONITOR BREATHING HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* MONITOR BREATHING * HEART ATTACK *</pattern>
+    <template><srai>MONITOR BREATHING HEART ATTACK</srai></template>
+</category>
+
+
+  <!-- ques 4 -->
+
+  <!-- ques 4 -->
+<category>
+    <pattern>CPR</pattern>
+    <template>Place one of your hands on top of the other and clasp them together. With the heel of the hands and straight elbows, push hard and fast in the center of the chest, slightly below the nipples.
+    
+        <br/>Push at least 2 inches deep. Compress their chest at a rate of least 100 times per minute. Let the chest rise fully between compressions.<br/>
+    
+        <br/>Step 2. Perform two rescue breaths
+    
+        <br/>Making sure their mouth is clear, tilt their head back slightly and lift their chin. Pinch their nose shut, place your mouth fully over theirs, and blow to make their chest rise.<br/>
+    
+        <br/>If their chest does not rise with the first breath, retilt their head. If their chest still does not rise with a second breath, the person might be choking.<br/>
+    
+        <br/>Step 3. Repeat
+    
+        <br/>Repeat the cycle of 30 chest compressions and two rescue breaths until the person starts breathing or help arrives.<br/> If an AED arrives, carry on performing CPR until the machine is set up and ready to use.
+
+    </template>
+</category>
+
+<category>
+    <pattern>* CPR</pattern>
+    <template><srai>CPR</srai></template>
+</category>
+
+<category>
+    <pattern>CPR *</pattern>
+    <template><srai>CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR *</pattern>
+    <template><srai>CPR</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+  <category>
+    <pattern># WATER OR FOOD # HEART ATTACK</pattern>
+    <template>No, avoid giving food or water as it may complicate treatment if the person requires surgery or other interventions.</template>
+  </category>
+
+  <!-- ques 4 -->
+
+<category>
+    <pattern>DIZZINESS HEART ATTACK</pattern>
+    <template>Help them sit or lie down, monitor their condition, and call emergency services. Ensure their airway remains clear.</template>
+</category>
+
+<category>
+    <pattern>* DIZZINESS HEART ATTACK</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIZZINESS HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIZZINESS HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIZZINESS * HEART ATTACK</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIZZINESS HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIZZINESS * HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIZZINESS * HEART ATTACK</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIZZINESS HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIZZINESS * HEART ATTACK *</pattern>
+    <template><srai>DIZZINESS HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+  <category>
+    <pattern>NAUSEA HEART ATTACK</pattern>
+    <template>Help them remain calm and comfortable. If they vomit, turn them onto their side to prevent choking, and seek medical attention immediately.</template>
+</category>
+
+<category>
+    <pattern>* NAUSEA HEART ATTACK</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>NAUSEA HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* NAUSEA HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>NAUSEA * HEART ATTACK</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>NAUSEA HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>NAUSEA * HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* NAUSEA * HEART ATTACK</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* NAUSEA HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* NAUSEA * HEART ATTACK *</pattern>
+    <template><srai>NAUSEA HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+ <category>
+    <pattern>ANXIETY DURING HEART ATTACK</pattern>
+    <template>Speak in a calm and reassuring manner. Encourage slow, deep breaths to help reduce anxiety and stress.</template>
+</category>
+
+<category>
+    <pattern>* ANXIETY DURING HEART ATTACK</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ANXIETY DURING HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ANXIETY DURING HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ANXIETY DURING * HEART ATTACK</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ANXIETY DURING HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>ANXIETY DURING * HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ANXIETY DURING * HEART ATTACK</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ANXIETY DURING HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* ANXIETY DURING * HEART ATTACK *</pattern>
+    <template><srai>ANXIETY DURING HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+  <category>
+    <pattern>USE AED HEART ATTACK</pattern>
+    <template>An AED is used only if the person is unresponsive and not breathing. Follow the device's instructions carefully.</template>
+</category>
+
+<category>
+    <pattern>* USE AED HEART ATTACK</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>USE AED HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* USE AED HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>USE AED * HEART ATTACK</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>USE AED HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>USE AED * HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* USE AED * HEART ATTACK</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* USE AED HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* USE AED * HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* AED * HEART ATTACK *</pattern>
+    <template><srai>USE AED HEART ATTACK</srai></template>
+</category>
+  
+  <!-- ques 4 -->
+
+<category>
+    <pattern>SIGNS OF HEART ATTACK</pattern>
+    <template>SIGNS of heart attack include<br/> *pain or discomfort in the Arms (one or both), Back, Neck, Jaw, Stomach.
+        <br/>*Shortness of breath. This can happen with or without chest discomfort.
+        <br/>*Breaking out in a cold sweat
+        <br/>*Nausea
+        <br/>*Rapid or irregular heartbeat
+        <br/>*Feeling unusually tired
+        <br/>*Feeling lightheaded<br/>*High-risk individuals may experience atypical symptoms like fatigue, shortness of breath, nausea, or mild chest discomfort rather than severe pain.
+        <br/>*Worsening symptoms include increasing chest pain, difficulty breathing, fainting, confusion, or bluish skin. Seek immediate medical help
+    </template>
+</category>
+
+<category>
+    <pattern>* SIGNS OF HEART ATTACK</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS OF HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS OF HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS OF * HEART ATTACK</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS OF HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SIGNS OF * HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS OF * HEART ATTACK</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS OF HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SIGNS * HEART ATTACK *</pattern>
+    <template><srai>SIGNS OF HEART ATTACK</srai></template>
+</category>
+<!-- ques 4 -->
+
+<category>
+    <pattern>DIFFICULTY BREATHING HEART ATTACK</pattern>
+    <template>Help them sit upright to ease breathing, loosen any tight clothing, and call emergency services immediately.</template>
+</category>
+
+<category>
+    <pattern>* DIFFICULTY BREATHING HEART ATTACK</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIFFICULTY BREATHING HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIFFICULTY BREATHING HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIFFICULTY BREATHING * HEART ATTACK</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIFFICULTY BREATHING HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>DIFFICULTY BREATHING * HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIFFICULTY BREATHING * HEART ATTACK</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIFFICULTY BREATHING HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* DIFFICULTY BREATHING * HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* BREATHING DIFFICULTY* HEART ATTACK *</pattern>
+    <template><srai>DIFFICULTY BREATHING HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+<category>
+    <pattern>HEART ATTACK CPR</pattern>
+    <template>Check if the person is unresponsive and not breathing or has no pulse. If so, begin CPR immediately.</template>
+</category>
+
+<category>
+    <pattern>* HEART ATTACK CPR</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>HEART ATTACK CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* HEART ATTACK CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>HEART ATTACK * CPR</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>HEART ATTACK CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>HEART ATTACK * CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* HEART ATTACK * CPR</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* HEART ATTACK CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* HEART ATTACK * CPR *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+  <!-- ques 4 -->
+<category>
+    <pattern>CPR HEART ATTACK</pattern>
+    <template>
+        <srai>HEART ATTACK CPR</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* CPR HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>CPR HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>CPR * HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>CPR HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>CPR * HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR * HEART ATTACK</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+<category>
+    <pattern>* CPR * HEART ATTACK *</pattern>
+    <template><srai>HEART ATTACK CPR</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+ <category>
+    <pattern>STABILIZE HEART ATTACK</pattern>
+    <template>Keep them calm, help them sit or lie down comfortably, monitor their vitals, and administer aspirin if appropriate.</template>
+</category>
+
+<category>
+    <pattern>* STABILIZE HEART ATTACK</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>STABILIZE HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* STABILIZE HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>STABILIZE * HEART ATTACK</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>STABILIZE HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>STABILIZE * HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* STABILIZE * HEART ATTACK</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* STABILIZE HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* STABILIZE * HEART ATTACK *</pattern>
+    <template><srai>STABILIZE HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+ <category>
+    <pattern>VITALS HEART ATTACK</pattern>
+    <template>Check their pulse, breathing rate, and level of consciousness regularly. Note any changes to report to medical professionals.</template>
+</category>
+
+<category>
+    <pattern>* VITALS HEART ATTACK</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>VITALS HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* VITALS HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>VITALS * HEART ATTACK</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>VITALS HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>VITALS * HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* VITALS * HEART ATTACK</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* VITALS HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* VITALS * HEART ATTACK *</pattern>
+    <template><srai>VITALS HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+  <category>
+    <pattern>SHOCK HEART ATTACK</pattern>
+    <template>Keep the person lying down with their legs elevated, cover them to maintain body heat, and call for emergency help immediately.</template>
+</category>
+
+<category>
+    <pattern>* SHOCK HEART ATTACK</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * HEART ATTACK</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>SHOCK * HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * HEART ATTACK</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* SHOCK * HEART ATTACK *</pattern>
+    <template><srai>SHOCK HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+  <category>
+    <pattern>UNCONSCIOUS HEART ATTACK</pattern>
+    <template>Place them in the recovery position to keep their airway open and monitor their condition until help arrives.<br/> Check for breathing and pulse. If absent, begin CPR immediately and use an AED if available.</template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS HEART ATTACK</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS * HEART ATTACK</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>UNCONSCIOUS * HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS * HEART ATTACK</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* UNCONSCIOUS * HEART ATTACK *</pattern>
+    <template><srai>UNCONSCIOUS HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+<category>
+    <pattern>CLEAR AIRWAY HEART ATTACK</pattern>
+    <template>Turn them onto their side in the recovery position to prevent choking and ensure the airway remains open.</template>
+</category>
+
+<category>
+    <pattern>* CLEAR AIRWAY HEART ATTACK</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>CLEAR AIRWAY HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* CLEAR AIRWAY HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>CLEAR AIRWAY * HEART ATTACK</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>CLEAR AIRWAY HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>CLEAR AIRWAY * HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* CLEAR AIRWAY * HEART ATTACK</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* CLEAR AIRWAY HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* CLEAR AIRWAY * HEART ATTACK *</pattern>
+    <template><srai>CLEAR AIRWAY HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+  <category>
+    <pattern>EMOTIONAL SUPPORT HEART ATTACK</pattern>
+    <template>Speak calmly, reassure them, and encourage slow, steady breathing to reduce anxiety and stress.</template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL SUPPORT HEART ATTACK</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL SUPPORT HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL SUPPORT HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL SUPPORT * HEART ATTACK</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL SUPPORT HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>EMOTIONAL SUPPORT * HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL SUPPORT * HEART ATTACK</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL SUPPORT HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* EMOTIONAL SUPPORT * HEART ATTACK *</pattern>
+    <template><srai>EMOTIONAL SUPPORT HEART ATTACK</srai></template>
+</category>
+
+
+  <!-- ques 4 -->
+
+  <category>
+    <pattern>AFTER HEART ATTACK</pattern>
+    <template>Look for irregular heartbeats, severe shortness of breath, or swelling. Seek immediate medical attention as these conditions require professional care.</template>
+</category>
+
+<category>
+    <pattern>* AFTER HEART ATTACK</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER * HEART ATTACK</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>AFTER * HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER * HEART ATTACK</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+<category>
+    <pattern>* AFTER * HEART ATTACK *</pattern>
+    <template><srai>AFTER HEART ATTACK</srai></template>
+</category>
+
+  <!-- ques 4 -->
+
+                                                  
+</aiml>

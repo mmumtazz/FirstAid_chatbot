@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- 1. Essential items for a first aid kit -->
+   <category>
+    <pattern>FIRST AID KIT</pattern>
+    <template>
+        <ul>
+            <li>Essential items for a first aid kit include adhesive bandages, gauze, antiseptic wipes, iodine solution, alcohol pads, tweezers, scissors, adhesive tape, disposable gloves.</li>
+            <li>Include child-friendly items such as smaller bandages, baby aspirin (if recommended by a doctor), and medications suitable for children. Adults may need stronger pain relievers or specialized equipment for conditions like high blood pressure.</li>
+            <li>Include adhesive bandages, sterile gauze pads, a roll of bandage, and non-stick dressings. Add elastic bandages (like an Ace bandage) for sprains.</li>
+            <li>Include over-the-counter pain relievers like ibuprofen or acetaminophen, and any other prescribed medications that are commonly needed, such as antihistamines or antacids.</li>
+            <li>Include antibiotic ointment and burn gel. Ensure there's a burn dressing or cold pack for more serious burns.</li>
+            <li>Include an epinephrine auto-injector (EpiPen), antihistamines, anti-diarrheal medications, and any personal allergy medications.</li>
+            <li>Include a Glucometer, Blood Pressure Monitor, a thermometer, and a CPR mask.</li>
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>* FIRST AID KIT</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID KIT *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * KIT</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * KIT</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * KIT *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * KIT *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID KIT *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+    <!-- ques  -->   
+<category>
+    <pattern>FIRST AID BOX</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID BOX</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID BOX *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * BOX</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * BOX</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * BOX *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * BOX *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID BOX *</pattern>
+    <template><srai>FIRST AID KIT</srai></template>
+</category>
+    <!-- ques  -->   
+<category>
+    <pattern>TOOLS FIRST AID</pattern>
+    <template>Essential tools include scissors, tweezers (for removing splinters or stingers), and a thermometer. Also consider a flashlight and a multi-tool for additional functionality.</template>
+</category>
+
+<category>
+    <pattern>* TOOLS FIRST AID</pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>TOOLS FIRST AID *</pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>TOOLS * FIRST AID </pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* TOOLS * FIRST AID</pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>TOOLS * FIRST AID KIT *</pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* TOOLS * FIRST AID KIT *</pattern>
+    <template><srai>TOOLS FIRST AID</srai></template>
+</category>
+
+<!-- 17. Maintaining and updating the first aid kit -->
+    <category>
+    <pattern>MAINTAIN FIRST AID</pattern>
+    <template>Regularly check for expired medications and replace used or missing items. Update your kit according to new medical conditions or family needs.</template>
+</category>
+
+<category>
+    <pattern>* MAINTAIN FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAIN FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAIN * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAIN * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAIN * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAIN * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+     <!-- ques  -->  
+   <category>
+    <pattern>MAINTAINANCE FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINANCE FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINANCE FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINANCE * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINANCE * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINANCE * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINANCE * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+ <!-- ques  -->  
+ <category>
+    <pattern>FIRST AID MAINTAINED</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID MAINTAINED</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID MAINTAINED *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * MAINTAINED</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * MAINTAINED</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * MAINTAINED *</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * MAINTAINED *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+ <!-- ques  -->  
+<category>
+    <pattern>MAINTAINING FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINING FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINING FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINING * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINING * FIRST AID</pattern>
+    <template><srai>MAINTAIN FIRST AID </srai></template>
+</category>
+
+<category>
+    <pattern>MAINTAINING * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* MAINTAINING * FIRST AID *</pattern>
+    <template><srai>MAINTAIN FIRST AID</srai></template>
+</category>
+
+
+    <!-- 30. Storing first aid kit safely and accessibly -->
+    <category>
+    <pattern>STORE FIRST AID</pattern>
+    <template>Keep your kit in a dry, cool place that is easy to reach in an emergency, such as in a designated emergency drawer or bag.</template>
+</category>
+
+<category>
+    <pattern>* STORE FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORE FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORE * FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* STORE * FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORE * FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* STORE * FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+     <!-- ques  -->  
+    <category>
+    <pattern>STORING FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* STORING FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORING FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORING * FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* STORING * FIRST AID</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>STORING * FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* STORING * FIRST AID *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+     <!-- ques  -->  
+  <category>
+    <pattern>FIRST AID STORED</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID STORED</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID STORED *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * STORED</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * STORED</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>FIRST AID * STORED *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+<category>
+    <pattern>* FIRST AID * STORED *</pattern>
+    <template><srai>STORE FIRST AID</srai></template>
+</category>
+
+</aiml>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RescueReady Chatbot</title>
+    <!-- Dependencies -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          background: #e6dffa;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 1em;
+          letter-spacing: 0.1px;
+          color: #050505;
+          -webkit-font-smoothing: antialiased;
+        }
+        #frame {
+          width: 95%;
+          min-width: 360px;
+          max-width: 1000px;
+          height: 92vh;
+          min-height: 300px;
+          max-height: 720px;
+          background: #E6EAEA;
+        }
+        @media screen and (max-width: 360px) {
+          #frame {
+            width: 100%;
+            height: 100vh;
+          }
+        }
+        #frame #sidepanel {
+          float: left;
+          min-width: 280px;
+          max-width: 340px;
+          width: 40%;
+          height: 100%;
+          background: #9d7dfa;
+          color: #f5f5f5;
+          overflow: hidden;
+          position: relative;
+        }
+        @media screen and (max-width: 735px) {
+          #frame #sidepanel {
+            width: 58px;
+            min-width: 58px;
+          }
+        }
+        #frame #sidepanel #profile {
+          width: 80%;
+          margin: 25px auto;
+        }
+        #frame #sidepanel #profile .wrap {
+          height: 60px;
+          line-height: 60px;
+          overflow: hidden;
+          transition: 0.3s height ease;
+        }
+        #frame #sidepanel #profile .wrap img {
+          width: 50px;
+          border-radius: 50%;
+          padding: 3px;
+          border: 2px solid #e74c3c;
+          height: auto;
+          float: left;
+        }
+        #frame #sidepanel #profile .wrap p {
+          float: left;
+          margin-left: 15px;
+          line-height: 1.3;
+          width: calc(100% - 70px);
+        }
+        #frame #sidepanel #search {
+          border-top: 1px solid #050505;
+          border-bottom: 1px solid #050505;
+          font-weight: 300;
+        }
+        @media screen and (max-width: 735px) {
+          #frame #sidepanel #search {
+            display: none;
+          }
+        }
+        #frame #sidepanel #search input {
+          font-family: "Source Sans Pro", sans-serif;
+          padding: 10px 0 10px 46px;
+          width: calc(100% - 25px);
+          border: none;
+          background: #9d7dfa;
+          color: #f5f5f5;
+        }
+        #frame #sidepanel #search input:focus { outline: none; background: #b7a0fa; }
+        #frame #sidepanel #search input::-webkit-input-placeholder { color: #f5f5f5; }
+        #frame #sidepanel #contacts {
+          height: calc(100% - 177px);
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+        #frame #sidepanel #contacts::-webkit-scrollbar { width: 8px; background: #8159f5; }
+        #frame #sidepanel #contacts::-webkit-scrollbar-thumb { background-color: #6d3ff4; }
+        #frame #sidepanel #contacts ul li.contact {
+          position: relative;
+          padding: 10px 0 15px 0;
+          font-size: 0.9em;
+        }
+        #frame #sidepanel #contacts ul li.contact .wrap {
+          width: 88%;
+          margin: 0 auto;
+          position: relative;
+        }
+        #frame #sidepanel #contacts ul li.contact .wrap .meta { padding: 5px 0 0 0; }
+        #frame #sidepanel #contacts ul li.contact .wrap .meta .name { font-weight: 600; }
+        #frame #sidepanel #bottom-bar {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+        }
+        #frame #sidepanel #bottom-bar button {
+          float: left;
+          border: none;
+          width: 100%; /* Changed from 50% */
+          padding: 10px 0;
+          background: #6d3ff4;
+          color: #f5f5f5;
+          cursor: pointer;
+          font-size: 0.85em;
+        }
+        #frame #sidepanel #bottom-bar button:focus { outline: none; }
+        #frame #sidepanel #bottom-bar button:hover { background: #b7a0fa; }
+        #frame #sidepanel #bottom-bar button i { margin-right: 3px; }
+        #frame .content {
+          float: right;
+          width: 60%;
+          height: 100%;
+          overflow: hidden;
+          position: relative;
+        }
+        @media screen and (max-width: 735px) {
+          #frame .content {
+            width: calc(100% - 58px);
+            min-width: 300px !important;
+          }
+        }
+        @media screen and (min-width: 900px) {
+          #frame .content {
+            width: calc(100% - 340px);
+          }
+        }
+        #frame .content .contact-profile {
+          width: 100%;
+          height: 60px;
+          line-height: 60px;
+          background: #f5f5f5;
+        }
+        #frame .content .contact-profile img {
+          width: 40px;
+          border-radius: 50%;
+          float: left;
+          margin: 9px 12px 0 9px;
+        }
+        #frame .content .contact-profile p { float: left; }
+        #frame .content .messages {
+          height: auto;
+          min-height: calc(100% - 93px);
+          max-height: calc(100% - 93px);
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+        #frame .content .messages::-webkit-scrollbar { width: 8px; background: transparent; }
+        #frame .content .messages::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.3); }
+        #frame .content .messages ul li {
+          display: inline-block;
+          clear: both;
+          float: left;
+          margin: 15px 15px 5px 15px;
+          width: calc(100% - 25px);
+          font-size: 0.9em;
+        }
+        #frame .content .messages ul li:nth-last-child(1) { margin-bottom: 20px; }
+        #frame .content .messages ul li.sent img { margin: 6px 8px 0 0; }
+        #frame .content .messages ul li.sent p { background: #9d7dfa; color: #f5f5f5; }
+        #frame .content .messages ul li.replies img { float: right; margin: 6px 0 0 8px; }
+        #frame .content .messages ul li.replies p { background: #f5f5f5; float: right; }
+        #frame .content .messages ul li img {
+          width: 22px;
+          border-radius: 50%;
+          float: left;
+        }
+        #frame .content .messages ul li p {
+          display: inline-block;
+          padding: 10px 15px;
+          border-radius: 20px;
+          max-width: 205px;
+          line-height: 130%;
+        }
+        @media screen and (min-width: 735px) {
+          #frame .content .messages ul li p {
+            max-width: 300px;
+          }
+        }
+        #frame .content .message-input {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          z-index: 99;
+        }
+        #frame .content .message-input .wrap { position: relative; }
+        #frame .content .message-input .wrap input {
+          font-family: "Source Sans Pro", sans-serif;
+          float: left;
+          border: none;
+          width: calc(100% - 90px);
+          padding: 11px 32px 10px 8px;
+          font-size: 0.8em;
+          color: #32465a;
+        }
+        #frame .content .message-input .wrap input:focus { outline: none; }
+        #frame .content .message-input .wrap button {
+          float: right;
+          border: none;
+          width: 50px;
+          padding: 12px 0;
+          cursor: pointer;
+          background: #9d7dfa;
+          color: #f5f5f5;
+        }
+        #frame .content .message-input .wrap button:hover { background: #6d3ff4; }
+        #frame .content .message-input .wrap button:focus { outline: none; }
+    </style>
+</head>
+<body>
+<div id="frame">
+    <div id="sidepanel">
+        <div id="profile">
+            <div class="wrap">
+                <img id="profile-img" src="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg" class="online" alt="user profile image" />
+                <!-- THIS IS THE DYNAMIC PART -->
+                <p>{{ user_name }}</p>
+                <p style="font-size: 0.8em; opacity: 0.8;">~ by Shaza Mumtaz</p>
+            </div>
+        </div>
+        <div id="search">
+            <label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+            <input type="text" placeholder="Search contacts..." />
+        </div>
+        <div id="contacts">
+            <ul>
+                <li class="contact">
+                    <div class="wrap">
+                        <img src="https://jamanetwork.com/imagelibrary/CollectionFeaturedImages/JamaNetwork/5621_emergency-medicine.png" alt="bot profile image" />
+                        <div class="meta">
+                            <p class="name">RescueReady Bot</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="bottom-bar">
+            <!-- Changed to a single Logout button -->
+            <a href="{{ url_for('logout') }}" style="text-decoration: none;">
+                <button id="settings"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i> <span>Logout</span></button>
+            </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contact-profile">
+            <img src="https://jamanetwork.com/imagelibrary/CollectionFeaturedImages/JamaNetwork/5621_emergency-medicine.png" alt="bot profile image" />
+            <p>RescueReady Bot</p>
+        </div>
+        <div class="messages">
+            <ul>
+                <li class="replies">
+                    <img src="https://jamanetwork.com/imagelibrary/CollectionFeaturedImages/JamaNetwork/5621_emergency-medicine.png" alt="bot profile image" />
+                    <p>Hello! I am the Emergency Preparedness Guide bot!<br>Please enter your text to begin.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="message-input">
+            <div class="wrap">
+                <input id="textInput" type="text" name="msg" placeholder="Write your message..." />
+                <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Automatically scroll to the most recent message
+    $(".messages").animate({ scrollTop: $(".messages")[0].scrollHeight }, "fast");
+
+    function newMessage() {
+        let message = $(".message-input input").val().trim();
+        if (message === '') {
+            return false;
+        }
+
+        // Append the user's message to the chat log
+        let userHtml = '<li class="sent"><img src="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg" alt="user profile image" /><p>' + message + '</p></li>';
+        $('.messages ul').append(userHtml);
+
+        // Clear the input field
+        $('.message-input input').val('');
+
+        // Scroll to the bottom
+        $(".messages").animate({ scrollTop: $(".messages")[0].scrollHeight }, "fast");
+
+        // Send the message to the Flask backend and get a response
+        $.get("/get", { msg: message }).done(function(data) {
+            let botHtml = '<li class="replies"><img src="https://jamanetwork.com/imagelibrary/CollectionFeaturedImages/JamaNetwork/5621_emergency-medicine.png" alt="bot profile image" /><p>' + data + '</p></li>';
+            $('.messages ul').append(botHtml);
+            $(".messages").animate({ scrollTop: $(".messages")[0].scrollHeight }, "fast");
+        });
+    }
+
+    // Trigger newMessage() on button click
+    $('.submit').click(function() {
+        newMessage();
+    });
+
+    // Trigger newMessage() on pressing Enter key
+    $(window).on('keydown', function(e) {
+        if (e.which == 13) {
+            newMessage();
+            return false;
+        }
+    });
+</script>
+
+</body>
+</html>

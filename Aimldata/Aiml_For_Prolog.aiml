@@ -1,0 +1,26 @@
+<aiml version="2.0">
+  <category>
+    <pattern>EMERGENCY NUMBER FOR *</pattern>
+    <template>
+      <think>
+        <set name="situation"><star/></set>
+        <set name="emergency_number"><eval>"<star/>"</eval></set> <!-- Set the emergency number value -->
+      </think>
+      <condition name="emergency_number">
+        <li value="unknown">Sorry, I couldn't find the emergency number for <get name="situation"/>.</li>
+        <li>The emergency number for <get name="situation"/> is <get name="emergency_number"/>.</li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <!-- Fallback for emergency number -->
+  <category>
+    <pattern>EMERGENCY NUMBER</pattern>
+    <template>
+      Please specify a situation. For example, "Emergency number for fire".
+    </template>
+  </category>
+
+</aiml>
