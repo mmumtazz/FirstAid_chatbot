@@ -1,4 +1,4 @@
-#This is the aiml, prolog and login page code only(without neo4j)
+#This is the aiml, prolog and login page code only(without neo4j).
 from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
