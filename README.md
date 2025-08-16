@@ -10,6 +10,27 @@ Welcome to the RescueReady Chatbot project! This is a full-stack chatbot built u
 
 The core of the chatbot is **rule-based**, using AIML and a Prolog knowledge base to provide accurate, scripted responses for specific first-aid and emergency scenarios. This foundation is then enhanced with a **Natural Language Processing (NLP)** pipeline to understand user sentiment and context, creating a more dynamic and intelligent conversational experience.
 
+## Project Stages Explained
+
+### 📁 `01-SQLAlchemy-Version`
+-   **Description:** The initial version of the chatbot.
+-   **Authentication:** User login and registration are handled by **SQLAlchemy** with a SQLite database.
+-   **Features:** Includes the full AIML, NLP, and Prolog-reading capabilities.
+
+### 📁 `02-Hybrid-Version`
+-   **Description:** A transitional version exploring graph database integration.
+-   **Authentication:** User login remains on **SQLAlchemy**.
+-   **Neo4j Integration:** The chatbot now writes emergency situation and contact data to **Neo4j**, demonstrating a hybrid database architecture.
+
+### 📁 `03-Final-Neo4j-Version` (Recommended)
+-   **Description:** The final and most advanced version of the application.
+-   **Authentication:** **SQLAlchemy is completely removed.** The entire user authentication system (login/registration) is now handled natively by **Neo4j**.
+-   **Features:** A fully integrated system where all persistent data, from user accounts to chatbot-learned facts, resides in the graph database.
+
+### 📁 `04-Neo4j-Practice-Scripts`
+-   **Description:** Contains standalone Python scripts used for practicing and testing Cypher queries with the `neo4j` driver.
+
+
 ## Features 🌟
 
 -   **Secure User Authentication:** A complete login and registration system built purely with **Neo4j**, using bcrypt for secure password hashing.
