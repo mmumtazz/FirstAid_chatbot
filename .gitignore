@@ -19,7 +19,7 @@ __pycache__/
 *.sqlite3
 
 # A file to hold secret information
-secrets.py
+config.py
 
 # Operating system files
 .DS_Store

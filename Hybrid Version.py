@@ -26,7 +26,7 @@ app.secret_key = os.urandom(24)
 
 # Neo4j connection details
 # --- Neo4j Connection ---
-from secrets import NEO4J_PASSWORD # <-- IMPORT YOUR SECRET
+from config import NEO4J_PASSWORD # <-- IMPORT YOUR SECRET
 # The password is now loaded securely from the other file
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USERNAME = "neo4j"
