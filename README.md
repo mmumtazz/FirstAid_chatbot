@@ -90,13 +90,13 @@ To run this project locally, please follow these steps.
 
 6.  The application will be available at **`http://127.0.0.1:5001/`**. Navigate to the `/register` page to create your first account.
 
-## Future Plans 🔮
+## Future Plans 
 
 -   **Save Chat History:** Implement functionality to save conversation logs to Neo4j, linked to user nodes.
 -   **Speech Integration:** Add Speech-to-Text and Text-to-Speech capabilities for a hands-free user experience.
 -   **Expand Knowledge Base:** Greatly expand the AIML and Prolog files to cover a wider range of first-aid and emergency scenarios.
 
-## Acknowledgments 🙏
+## Acknowledgments
 
 -   Inspired by the foundational AIML chatbot project by **[Pema Gurung](https://github.com/pemagrg1)**..
--   Thanks to Thanks to **[kuki.ai](https://www.kuki.ai/)** for being a benchmark in the world of rule-based chatbots.
+-   Thanks to **[kuki.ai](https://www.kuki.ai/)** for being a benchmark in the world of rule-based chatbots.
