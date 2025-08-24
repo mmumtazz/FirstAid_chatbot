@@ -85,7 +85,7 @@ def get_info_from_prolog_file(situation, info_type="number"):
     except FileNotFoundError: return "ERROR: The chatbot's knowledge base file is missing.", None
     except Exception: return "An error occurred reading the knowledge base.", None
 
-# --- YOUR EXACT NLP FUNCTIONS (NO CHANGES) ---
+# --- NLP FUNCTIONS ---
 def get_definition(word):
     try:
         synset = wn.synset(word + '.n.01')
@@ -163,7 +163,7 @@ def logout():
     return redirect(url_for('login'))
 
 
-# --- START: YOUR EXACT CHATBOT LOGIC (RESTORED) ---
+# --- START: CHATBOT LOGIC ---
 @app.route("/get")
 def get_bot_response():
     if 'email' not in session: return "Authentication required.", 401
@@ -243,7 +243,7 @@ def get_bot_response():
         bot_response = temp_bot.respond(user_query, session_id)
 
     return bot_response if bot_response.strip() else "I'm here to help. Can you elaborate more?"
-# --- END: YOUR EXACT CHATBOT LOGIC (RESTORED) ---
+# --- END ---
 
 
 if __name__ == "__main__":
